@@ -110,3 +110,14 @@
      font-size: 40px;
      padding-right: 2rem;
  }
+
+ /* resume page css  */
+ .resumeRightCol {
+    background: #212329;
+    color: white;
+    padding: 2em;
+ }
+
+ .resumeGrid h2, h4, p {
+    font-family: 'IBM Plex Mono', monospace;
+ }
