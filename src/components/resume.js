@@ -99,6 +99,11 @@ class Resume extends Component {
                            progress={80} 
                         />  
 
+                        <Skills 
+                           skill='MongoDB'
+                           progress={60} 
+                        />
+
                     </Cell>
                 </Grid>
             </div>
