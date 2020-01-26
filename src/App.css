@@ -1,15 +1,16 @@
-/* .headerColor {
-    background: #212329;
-} */
+.headerColor {
+    /* background: #212329; */
+    font-family: 'IBM Plex Mono', monospace;
+}
 
 /* fix the bottom border later  */
 .mdl-layout__header-row {
-    background: #212329;
+    background: #24283B;
     border-bottom: 1px solid white;
 }
 
 .landingGrid {
-    background: #212329;  /* fallback for old browsers */
+    background: #24283B;  /* fallback for old browsers */
     /* background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  Chrome 10-25, Safari 5.1-6 */
     /* background: linear-gradient(to right, #24243e, #302b63, #0f0c29); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
@@ -37,6 +38,7 @@
     font-size: 40px;
     font-weight: bold;
     color: white;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 .bannerText hr {

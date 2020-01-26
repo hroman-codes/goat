@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div className="demo-big-content">
         <Layout>
-            <Header className='headerColor' title={<Link style={{ textDecoration: 'none', color: 'white'}}
+            <Header className='headerColor' title={<Link style={{ textDecoration: 'none', color: 'white', fontFamily: 'IBM Plex Mono'}}
             to='/'>Getroman.dev</Link>} scroll>
                 <Navigation>
                     <Link to="/resume">Resume</Link>
