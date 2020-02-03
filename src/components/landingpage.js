@@ -3,9 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Getromanlogo from './images/getromanlogo';
 import VideoBG from 'reactjs-videobg';
 import mp4 from './videos/neon.mp4';
-// import poster from "./img/poster.jpg";
-
-// import Introvideo from './videos/introvideo';
+import Music from './music/music';
 
 class Landing extends Component {
     render() {
@@ -16,11 +14,11 @@ class Landing extends Component {
                         <Getromanlogo
                             style={{height: '250px'}}
                         />
+                        {/* <Introvideo /> */}
                         <VideoBG>
                             <VideoBG.Source src={mp4} type='video/mp4' />
                         </VideoBG>
-                        {/* <Introvideo /> */}
-
+                        
                         <div className='bannerText'>
                             <h1>Lead Technical Instructor | Dev | AWS Certified Cloud Practitioner</h1>
                         <hr/>
@@ -55,6 +53,8 @@ class Landing extends Component {
                             </a>
                         </div>
                         </div>
+                        {/* music */}
+                        <Music />
                     </Cell>
                 </Grid>
             </div>
