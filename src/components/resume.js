@@ -3,6 +3,8 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import Getromanimage from './images/getromanImage.jpeg';
+// https://media-exp2.licdn.com/dms/image/C4E03AQE4BXiSjDcqLw/profile-displayphoto-shrink_200_200/0?e=1585180800&v=beta&t=8g5ozA1CihFW1N83fAyuCSNf98t81zPLLjxvTmwjl-0
 
 class Resume extends Component {
     render() {
@@ -12,7 +14,7 @@ class Resume extends Component {
                     <Cell col={5}>
                         <div style={{ textAlign: 'center' }}>
                             <img 
-                                src='https://media-exp2.licdn.com/dms/image/C4E03AQE4BXiSjDcqLw/profile-displayphoto-shrink_200_200/0?e=1585180800&v=beta&t=8g5ozA1CihFW1N83fAyuCSNf98t81zPLLjxvTmwjl-0'
+                                src={Getromanimage}
                                 alt='Heriberto'
                                 style={{ height: '200px', borderRadius: '50%' }} 
                             / >
