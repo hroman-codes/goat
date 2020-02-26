@@ -13,6 +13,13 @@ class Navsplash extends Component {
     render() {
         return (
             <div className='cloudContainer'>
+                <div className="cThinkColorContainer">
+                    <div className="red topNavBorder"></div>
+                    <div className="orange topNavBorder"></div>
+                    <div className="green topNavBorder"></div>
+                    <div className="blue topNavBorder"></div>
+                </div>
+                
                 <div className='footer'>
                     <Cloudsplash />
                 </div>

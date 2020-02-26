@@ -10,3 +10,29 @@
 .footer {
     grid-row-end: 90;
 }
+
+.cThinkColorContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+  }
+
+  .blue {
+    background-color: #47B0BE;
+  }
+  
+  .green {
+    background-color: #60B77A;
+  }
+  
+  .orange {
+    background-color: #E9A02E;
+  }
+  
+  .red {
+    background-color: #E05547;
+  }
+  
+  .topNavBorder {
+    height: 8px;
+  }
