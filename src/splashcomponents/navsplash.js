@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+import './splash.css';
 
 import Cloudsplash from './cloudsplash'; 
 import NavHeader from './navHeader';
-import './splash.css';
+import SplashGetromanLogo from '../splashcomponents/images/splashGetromanLogo';
 
 // create a cloud component 
 // create a shooting star component 
@@ -16,11 +17,9 @@ class Navsplash extends Component {
             <div className='cloudContainer'>
 
                 <NavHeader />
-                {/* <div className='cThinkColorContainer'>
-                    <div>
-                        <NavHeader />
-                    </div>
-                </div> */}
+
+                <SplashGetromanLogo />
+  
                 <div className='footer'>
                     <Cloudsplash />
                 </div>
