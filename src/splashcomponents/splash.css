@@ -1,10 +1,13 @@
 .cloudContainer {
-    background-color: #25283B;
+    /* background-color: #25283B; */
+    background: #25283B;
     display: grid;
     grid-template-rows: 1rf auto;
     height: 520px;
     margin: auto;
     width: 100%;
+    background: linear-gradient(to bottom, #010311, #010311, #010311, #25283B,  #C4C4C4);
+
 }
 
 .footer {
@@ -15,24 +18,4 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     width: 100%;
-  }
-
-  .blue {
-    background-color: #47B0BE;
-  }
-  
-  .green {
-    background-color: #60B77A;
-  }
-  
-  .orange {
-    background-color: #E9A02E;
-  }
-  
-  .red {
-    background-color: #E05547;
-  }
-  
-  .topNavBorder {
-    height: 8px;
   }
