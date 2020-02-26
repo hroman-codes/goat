@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 
+import Navsplash from './navsplash';
+
 class Splashpage extends Component {
     render() {
         return (
             <div>
-                This will be the splash Page
+                <Navsplash />
             </div>
         )
     }

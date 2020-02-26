@@ -1,0 +1,12 @@
+.cloudContainer {
+    background-color: #25283B;
+    display: grid;
+    grid-template-rows: 1rf auto;
+    height: 520px;
+    margin: auto;
+    width: 100%;
+}
+
+.footer {
+    grid-row-end: 90;
+}
