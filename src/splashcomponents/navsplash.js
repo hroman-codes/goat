@@ -16,25 +16,14 @@ class Navsplash extends Component {
         return (
             <div className='cloudContainer'>
                 <NavHeader />
-                
+    
+                {/* working html with grid */}
                 <div className='spaceContainer'>
                     {/* <div className='splashGetromanLogo'>
                         <SplashGetromanLogo />
                     </div> */}
-                    <div className='item1'></div>
-                    <div className='item2'></div>
-                    <div className='item3'></div>
-                    <div className='item4'><SplashGetromanLogo /></div>
-                    <div className='item5'></div>
-                    <div className='item6'></div>
-                    <div className='item7'></div>
-                    {/* <div className='item8'></div>
-                    <div className='item9'></div>
-                    <div className='item10'></div>
-                    <div className='item11'></div>
-                    <div className='item12'></div> */}
-                    {/* <div className='item2'></div>
-                    <div className='item3'></div> */}
+                    <div className='getromanLogo'><SplashGetromanLogo /></div>
+ 
                 </div>
   
                 <div className='footer'>

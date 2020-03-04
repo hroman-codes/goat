@@ -1,90 +1,32 @@
 .cloudContainer {
-    /* background-color: #25283B; */
     background: #25283B;
     display: grid;
     grid-template-rows: 1rf auto;
-    height: 520px;
+    height: 600px;
     margin: auto;
     width: 100%;
     background: linear-gradient(to bottom, #25283B, #25283B, #25283B, #C4C4C4);
 }
 
+/* wokring css for getroman logo  */
 .spaceContainer {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    /* grid-template-rows: repeat(8, 5vw); */
+    grid-template-rows: repeat(7, 1fr);
     column-gap: 20px;
     height: 350px;
     border: 2px dashed rgba(114, 186, 94, 0.35);
     background: rgba(114, 186, 94, 0.05);
 }
 
-.item1 {
-    width: 100%;
-    height: 100%;
-    border: 2px dashed rgba(236, 198, 48, 0.5);
-}
-
-.item2 {
-    width: 100%;
-    height: 100%;
-    border: 2px dashed rgba(236, 198, 48, 0.5);
-}
-
-.item3 {
-    width: 100%;
-    height: 100%;
-    border: 2px dashed rgba(236, 198, 48, 0.5);
-}
-
-.item4 {
+.getromanLogo {
     width: 399px;
     height: 346px;
-    border: 2px dashed rgba(236, 198, 48, 0.5);
+    grid-column-start: 4;
+    grid-column-end: 5;
 }
 
-.item5 {
-    width: 100%;
-    height: 100%;
-    border: 2px dashed rgba(236, 198, 48, 0.5);
-}
 
-.item6 {
-    width: 100%;
-    height: 100%;
-    border: 2px dashed rgba(236, 198, 48, 0.5);
-    
-}
-.item7 {
-    width: 100%;
-    height: 100%;
-    border: 2px dashed rgba(236, 198, 48, 0.5);
-}
-.item8 {
-    width: 100%;
-    height: 100%;
-    border: 2px dashed rgba(236, 198, 48, 0.5);
-}
-.item9 {
-    width: 100%;
-    height: 100%;
-    border: 2px dashed rgba(236, 198, 48, 0.5);
-}
-.item10 {
-    width: 100%;
-    height: 100%;
-    border: 2px dashed rgba(236, 198, 48, 0.5);
-}
-.item11 {
-    width: 100%;
-    height: 100%;
-    border: 2px dashed rgba(236, 198, 48, 0.5);
-}
-.item12 {
-    width: 100%;
-    height: 100%;
-    border: 2px dashed rgba(236, 198, 48, 0.5);
-}
 
 .footer {
     grid-row-end: 90;
