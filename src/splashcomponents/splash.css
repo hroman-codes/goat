@@ -1,33 +1,20 @@
 @media all and (min-width: 1001px) {
     .cloudContainer {
-        background: #25283B;
         display: grid;
-        grid-template-rows: 1rf auto;
+        /* grid-template-rows: 1rf auto; */
         /* height: 400px; */
-        margin: auto;
-        width: 100%;
-        background: linear-gradient(to bottom, #25283B, #25283B, #25283B, #C4C4C4);
+        /* margin: auto; */
+        /* width: 100%; */
+        /* background: linear-gradient(to bottom, #25283B, #25283B, #25283B, #C4C4C4); */
     }
 
-    /* wokring css for getroman logo  */
     .spaceContainer {
+        background: #25283B;
         display: grid;
         grid-template-columns: repeat(12, 1fr);
         grid-template-rows: repeat(12, 1fr);
         grid-gap: 15px;
         height: 320px;
-    }
-
-    /* 3px - */
-    .getromanLogo {
-        width: 100%;
-        /* width: 160px;
-        height: 163px; */
-        height: 100%;
-        grid-column-start: 6;
-        grid-column-end: 8;
-        grid-row-start: 2;
-        grid-row-end: 7;
     }
 
     .splashNavBigMoonLeft {
@@ -53,6 +40,18 @@
         grid-row-end: 6;
     }
 
+    /* 3px - */
+    .getromanLogo {
+        width: 100%;
+        /* width: 160px;
+        height: 163px; */
+        height: 100%;
+        grid-column-start: 6;
+        grid-column-end: 8;
+        grid-row-start: 2;
+        grid-row-end: 7;
+    }
+
     .splashNavSmallMoonRight {
         width: 152px;
         height: 133px;
@@ -65,7 +64,27 @@
     }
 
     .footer {
-        grid-row-end: 20;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 15px;
+        background: #25283B;
+    }
+
+    .cloudSplash {
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+
+    .splashStarsLeft {
+        height: 206px;
+        width: 206px;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
     }
 
 }

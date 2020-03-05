@@ -7,29 +7,26 @@ import SplashGetromanLogo from '../splashcomponents/splashGetromanLogo';
 import SplashNavBigMoonLeft from '../splashcomponents/splashNavBigMoonLeft';
 import SplashNavSmallMoonLeft from '../splashcomponents/splashNavSmallMoonLeft';
 import SplashNavSmallMoonRight from '../splashcomponents/splashNavSmallMoonRight';
+import SplashStarsLeft from '../splashcomponents/splashStarsLeft';
 
-// create a cloud component 
-// create big moon left component
 // create a shooting star component 
-// create nav small moon left component
-// create nav small moon right component
+// create mini stars component
 
 class Navsplash extends Component {
     render() {
         return (
-            <div className='cloudContainer'>
-                <NavHeader />
+            <div>
+                <div className='cloudContainer'> <NavHeader /> </div>
                 <div className='spaceContainer'>
                     <div className='splashNavBigMoonLeft'> <SplashNavBigMoonLeft /> </div>
-                    <div className='getromanLogo'><SplashGetromanLogo /></div>
                     <div className='splashNavSmallMoonLeft'> <SplashNavSmallMoonLeft /> </div>
+                    <div className='getromanLogo'><SplashGetromanLogo /></div>
                     <div className='splashNavSmallMoonRight'> <SplashNavSmallMoonRight /> </div>
                 </div>
-  
                 <div className='footer'>
-                    <Cloudsplash />
+                    <div className='cloudSplash'> <Cloudsplash /> </div>
+                    <div className='splashStarsLeft'> <SplashStarsLeft /> </div>
                 </div>
-                
             </div>  
         )
     }
