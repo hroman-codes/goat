@@ -3,8 +3,10 @@ import './splash.css';
 
 import Cloudsplash from './cloudsplash'; 
 import NavHeader from './navHeader';
-import SplashGetromanLogo from '../splashcomponents/images/splashGetromanLogo';
-import SplashNavBigMoonLeft from '../splashcomponents/images/splashNavBigMoonLeft'
+import SplashGetromanLogo from '../splashcomponents/splashGetromanLogo';
+import SplashNavBigMoonLeft from '../splashcomponents/splashNavBigMoonLeft';
+import SplashNavSmallMoonLeft from '../splashcomponents/splashNavSmallMoonLeft';
+import SplashNavSmallMoonRight from '../splashcomponents/splashNavSmallMoonRight';
 
 // create a cloud component 
 // create big moon left component
@@ -19,7 +21,9 @@ class Navsplash extends Component {
                 <NavHeader />
                 <div className='spaceContainer'>
                     <div className='splashNavBigMoonLeft'> <SplashNavBigMoonLeft /> </div>
-                    <div className='getromanLogo'> <SplashGetromanLogo /> </div>
+                    <div className='getromanLogo'><SplashGetromanLogo /></div>
+                    <div className='splashNavSmallMoonLeft'> <SplashNavSmallMoonLeft /> </div>
+                    <div className='splashNavSmallMoonRight'> <SplashNavSmallMoonRight /> </div>
                 </div>
   
                 <div className='footer'>
