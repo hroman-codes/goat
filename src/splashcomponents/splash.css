@@ -20,12 +20,15 @@
 
 /* 3px - */
 .getromanLogo {
-    width: 240px;
-    height: 243px;
+    width: 200px;
+    height: 203px;
     grid-column-start: 4;
     grid-column-end: 5;
-    grid-row-start: 1;
+    grid-row-start: 2;
     grid-row-end: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .splashNavBigMoonLeft {

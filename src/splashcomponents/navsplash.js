@@ -17,7 +17,6 @@ class Navsplash extends Component {
         return (
             <div className='cloudContainer'>
                 <NavHeader />
-
                 <div className='spaceContainer'>
                     <div className='splashNavBigMoonLeft'> <SplashNavBigMoonLeft /> </div>
                     <div className='getromanLogo'> <SplashGetromanLogo /> </div>
