@@ -8,8 +8,9 @@ import SplashNavBigMoonLeft from '../splashcomponents/splashNavBigMoonLeft';
 import SplashNavSmallMoonLeft from '../splashcomponents/splashNavSmallMoonLeft';
 import SplashNavSmallMoonRight from '../splashcomponents/splashNavSmallMoonRight';
 import SplashStarsLeft from '../splashcomponents/splashStarsLeft';
+import SplashStarsRight from '../splashcomponents/splashStarsRight';
+import SplashNavLeftStars from '../splashcomponents/splashNavLeftStars';
 
-// create a shooting star component 
 // create mini stars component
 
 class Navsplash extends Component {
@@ -20,12 +21,17 @@ class Navsplash extends Component {
                 <div className='spaceContainer'>
                     <div className='splashNavBigMoonLeft'> <SplashNavBigMoonLeft /> </div>
                     <div className='splashNavSmallMoonLeft'> <SplashNavSmallMoonLeft /> </div>
+                    <div className='splashNavLeftStars'> <SplashNavLeftStars /> </div>
                     <div className='getromanLogo'><SplashGetromanLogo /></div>
                     <div className='splashNavSmallMoonRight'> <SplashNavSmallMoonRight /> </div>
                 </div>
-                <div className='footer'>
+                <div className='footerContainer'>
                     <div className='cloudSplash'> <Cloudsplash /> </div>
                     <div className='splashStarsLeft'> <SplashStarsLeft /> </div>
+                    <div className='splashStarsRight'> <SplashStarsRight /> </div>
+                    <div className='underConstructionText'>
+                        <p>Site is Currently Under Construction. But in the mean time here is a little about myself.</p>
+                    </div>
                 </div>
             </div>  
         )

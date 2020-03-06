@@ -1,4 +1,4 @@
-@media all and (min-width: 1001px) {
+@media all and (min-width: 1688px) {
     .cloudContainer {
         display: grid;
         /* grid-template-rows: 1rf auto; */
@@ -39,6 +39,16 @@
         grid-row-start: 3;
         grid-row-end: 6;
     }
+    
+    .splashNavLeftStars {
+        height: 171px;
+        width: 400px;
+        grid-column-start: 3;
+        grid-column-end: 6;
+        grid-row-start: 4;
+        grid-row-end: 10;
+
+    }
 
     /* 3px - */
     .getromanLogo {
@@ -63,7 +73,7 @@
         grid-row-end: 11;
     }
 
-    .footer {
+    .footerContainer {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -87,56 +97,29 @@
         grid-row-end: 3;
     }
 
+    .splashStarsRight {
+        width: 307px;
+        height: 249px;
+        grid-column-start: 5;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    .underConstructionText {
+        font-family: IBM Plex Mono; 
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 39px;
+        text-align: center;
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
 }
-
-/* .cloudContainer {
-    background: #25283B;
-    display: grid;
-    grid-template-rows: 1rf auto;
-    height: 400px;
-    margin: auto;
-    width: 100%;
-    background: linear-gradient(to bottom, #25283B, #25283B, #25283B, #C4C4C4);
-} */
-
-
-/* wokring css for getroman logo  */
-/* .spaceContainer {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12, 1fr);
-    grid-gap: 15px;
-    height: 400px;
-} */
-
-/* 3px - */
-/* .getromanLogo {
-    width: 160px;
-    height: 163px;
-    grid-column-start: 6;
-    grid-column-end: 8;
-    grid-row-start: 2;
-    grid-row-end: 7;
-} */
-
-/* .splashNavBigMoonLeft {
-    width: 200px;
-    height: 200px;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 7;
-} */
-
-/* dif of -3 */
-/* .splashNavSmallMoonLeft {
-    width: 100px;
-    height: 103px;
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 3;
-    grid-row-end: 6;
-} */
 
 /* .footer {
     grid-row-end: 20;
