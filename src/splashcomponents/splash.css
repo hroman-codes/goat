@@ -1,3 +1,4 @@
+/* @media all and (min-width: 1688px) */
 @media all and (min-width: 1688px) {
     .cloudContainer {
         display: grid;
@@ -73,6 +74,15 @@
         grid-row-end: 11;
     }
 
+    .splashNavRightStars {
+        width: 513px;
+        height: 133px;
+        grid-column-start: 9;
+        grid-column-end: 12;
+        grid-row-start: 4;
+        grid-row-end: 10;
+    }
+
     .footerContainer {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
@@ -107,16 +117,19 @@
     }
 
     .underConstructionText {
-        font-family: IBM Plex Mono; 
-        font-style: normal;
-        font-weight: 600;
-        font-size: 30px;
-        line-height: 39px;
-        text-align: center;
         grid-column-start: 3;
         grid-column-end: 5;
         grid-row-start: 2;
         grid-row-end: 3;
+    }
+
+    .underConstructionText p {
+        font-family: IBM Plex Mono; 
+        font-style: normal;
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 39px;
+        text-align: center;
     }
 
 }
