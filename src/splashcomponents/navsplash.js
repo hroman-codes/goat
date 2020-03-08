@@ -12,14 +12,12 @@ import SplashStarsRight from '../splashcomponents/splashStarsRight';
 import SplashNavLeftStars from '../splashcomponents/splashNavLeftStars';
 import SplashNavRightStars from '../splashcomponents/splashNavRightStars'
 
-// create mini stars component
-
 class Navsplash extends Component {
     render() {
         return (
             <div>
-                <div className='cloudContainer'> <NavHeader /> </div>
-                <div className='spaceContainer'>
+                <div className='navTopBarContainer'> <NavHeader /> </div>
+                <div className='navBodyContainer'>
                     <div className='splashNavBigMoonLeft'> <SplashNavBigMoonLeft /> </div>
                     <div className='splashNavSmallMoonLeft'> <SplashNavSmallMoonLeft /> </div>
                     <div className='splashNavLeftStars'> <SplashNavLeftStars /> </div>
@@ -27,7 +25,7 @@ class Navsplash extends Component {
                     <div className='splashNavSmallMoonRight'> <SplashNavSmallMoonRight /> </div>
                     <div className='splashNavRightStars'> <SplashNavRightStars /> </div>
                 </div>
-                <div className='footerContainer'>
+                <div className='navFooterContainer'>
                     <div className='cloudSplash'> <Cloudsplash /> </div>
                     <div className='splashStarsLeft'> <SplashStarsLeft /> </div>
                     <div className='splashStarsRight'> <SplashStarsRight /> </div>
