@@ -32,7 +32,7 @@ class Navsplash extends Component {
                     <div className='splashStarsLeft'> <SplashStarsLeft /> </div>
                     <div className='splashStarsRight'> <SplashStarsRight /> </div>
                     <div className='underConstructionText'>
-                        <p>The site is currently under construction👷🚧. But in the meantime here is a little about myself.</p>
+                        <p>The site is currently under construction<span role='img' aria-label='construction'>👷 🚧</span>. But in the meantime here is a little about myself.</p>
                     </div>
                 </div>
             </div>  
