@@ -12,6 +12,7 @@ import SplashStarsRight from '../splashcomponents/splashStarsRight';
 import SplashNavLeftStars from '../splashcomponents/splashNavLeftStars';
 import SplashNavRightStars from '../splashcomponents/splashNavRightStars';
 import GetromanHeadShot from './images/getroman_head_shot.jpeg';
+import SplashGetromanLogoWithText from '../splashcomponents/splashGetromanLogoWithText';
 
 class Navsplash extends Component {
     render() {
@@ -41,6 +42,8 @@ class Navsplash extends Component {
                     <div className='getromanPictureContainer'>
                         <img className='getromanPicture' src={GetromanHeadShot} alt='head_shot' />
                     </div>
+
+                    <div className='getromanDetails'> <SplashGetromanLogoWithText /> </div>
 
                 </div>
             </div>  
