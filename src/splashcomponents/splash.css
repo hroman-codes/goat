@@ -1,5 +1,7 @@
 /* @media all and (min-width: 1688px) */
 @media all and (min-width: 1382px) {
+
+    /* start of nav section  */
     .navTopBarContainer {
         display: grid;
     }
@@ -99,4 +101,32 @@
         line-height: 39px;
         text-align: center;
     }
+    /* end of nav section  */
+
+    /* start of main section  */
+    .mainContainer {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        /* grid-template-rows: repeat(12, 1fr); */
+        grid-gap: 10px;
+    }
+
+    .getromanPictureContainer {
+        grid-column: 1 / 7;
+    }
+
+    .getromanPicture {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .mainContainerHeader {
+        display: grid;
+    }
+
+    .mainContainerHeader {
+        border: 4px solid #D6D4D1;
+    }
+    /* end of main section  */
 }

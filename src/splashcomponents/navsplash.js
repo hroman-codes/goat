@@ -10,7 +10,8 @@ import SplashNavSmallMoonRight from '../splashcomponents/splashNavSmallMoonRight
 import SplashStarsLeft from '../splashcomponents/splashStarsLeft';
 import SplashStarsRight from '../splashcomponents/splashStarsRight';
 import SplashNavLeftStars from '../splashcomponents/splashNavLeftStars';
-import SplashNavRightStars from '../splashcomponents/splashNavRightStars'
+import SplashNavRightStars from '../splashcomponents/splashNavRightStars';
+import GetromanHeadShot from './images/getroman_head_shot.jpeg';
 
 class Navsplash extends Component {
     render() {
@@ -25,6 +26,7 @@ class Navsplash extends Component {
                     <div className='splashNavSmallMoonRight'> <SplashNavSmallMoonRight /> </div>
                     <div className='splashNavRightStars'> <SplashNavRightStars /> </div>
                 </div>
+
                 <div className='navFooterContainer'>
                     <div className='cloudSplash'> <Cloudsplash /> </div>
                     <div className='splashStarsLeft'> <SplashStarsLeft /> </div>
@@ -32,6 +34,14 @@ class Navsplash extends Component {
                     <div className='underConstructionText'>
                         <p>The site is currently under construction<span role='img' aria-label='construction'>👷 🚧</span>. But in the meantime here is a little about myself.</p>
                     </div>
+                </div>
+
+                <div className='mainContainerHeader'></div>
+                <div className='mainContainer'>
+                    <div className='getromanPictureContainer'>
+                        <img className='getromanPicture' src={GetromanHeadShot} alt='head_shot' />
+                    </div>
+
                 </div>
             </div>  
         )
