@@ -38,7 +38,7 @@ class Navsplash extends Component {
                     </div>
                 </div>
 
-                <div className='mainContainerHeader'></div>
+                <div className='containerBreaker'></div>
                 <div className='mainContainer'>
                     <div className='getromanPictureContainer'>
                         <img className='getromanPicture' src={GetromanHeadShot} alt='head_shot' />
@@ -83,6 +83,15 @@ class Navsplash extends Component {
                     </div>
 
                 </div>
+
+                <div className='containerBreaker'></div>
+
+                <div className='footerContainer'>
+                    <div className='footerHeading'>
+                        <h1 className='footerHeadingChild'>My Minimal Viable <br /> Developer Skillset Model</h1>
+                    </div>
+                </div>
+
             </div>  
         )
     }
