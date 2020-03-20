@@ -2,7 +2,7 @@ import React from 'react';
 
 const SplashGetromanLogoWithText = () => {
     return (
-        <svg width="566" height="130" viewBox="0 0 566 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="0 0 566 130" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g filter="url(#filter0_d)">
             <ellipse cx="63.775" cy="60.805" rx="44.775" ry="45.805" fill="#25283B"/>
             <path d="M108.05 60.805C108.05 85.837 88.2168 106.11 63.775 106.11C39.3333 106.11 19.5 85.837 19.5 60.805C19.5 35.773 39.3333 15.5 63.775 15.5C88.2168 15.5 108.05 35.773 108.05 60.805Z" stroke="#171924"/>

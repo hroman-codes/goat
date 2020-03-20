@@ -13,6 +13,7 @@ import SplashNavLeftStars from '../splashcomponents/splashNavLeftStars';
 import SplashNavRightStars from '../splashcomponents/splashNavRightStars';
 import GetromanHeadShot from './images/getroman_head_shot.jpeg';
 import SplashGetromanLogoWithText from '../splashcomponents/splashGetromanLogoWithText';
+import SplashButton from '../splashcomponents/splashButton';
 
 class Navsplash extends Component {
     render() {
@@ -43,7 +44,43 @@ class Navsplash extends Component {
                         <img className='getromanPicture' src={GetromanHeadShot} alt='head_shot' />
                     </div>
 
-                    <div className='getromanDetails'> <SplashGetromanLogoWithText /> </div>
+                    <div className='splashGetromanLogoWithText'>
+                            <SplashGetromanLogoWithText /> 
+                    </div>
+
+                    <div className='getromanIntroText'> 
+                        <p> Developer | Technical Instructor | AWS Certified Cloud Practitioner </p>
+                        <p> <i class="fas fa-envelope"></i> getroman.dev@gmail.com </p>
+                    </div>
+
+                    <div className='splashSocialMediaIcons'>
+                        <a href='https://www.linkedin.com/in/heribertoroman/' target='_blank'>
+                            <i class="fab fa-linkedin-in fa-7x"></i>
+                        </a>
+
+                        <a href='https://github.com/getromandev' target='_blank'>
+                            <i class="fab fa-github fa-7x"></i>
+                        </a>
+
+                        <a href='https://dribbble.com/getroman' target='_blank'>
+                            <i class="fab fa-dribbble fa-7x"></i>
+                        </a>
+
+                        <a href='https://medium.com/@getroman.dev' target='_blank'>
+                            <i class="fab fa-medium-m fa-7x"></i>
+                        </a>
+                        
+                        <a href='https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-12-02&ci=AWS01186088' target='_blank'>
+                            <i class="fab fa-aws fa-7x"></i>
+                        </a>
+                    </div>
+
+                    <div className='bottomMainContainer'></div>
+
+                    <div className='bottomMainContainerDetails'>
+                        <p>Follow the dev process of Getroman.dev.</p>
+                        <SplashButton />
+                    </div>
 
                 </div>
             </div>  
@@ -52,3 +89,4 @@ class Navsplash extends Component {
 } 
 
 export default Navsplash;
+
