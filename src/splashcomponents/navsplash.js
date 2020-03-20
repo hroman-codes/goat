@@ -14,6 +14,7 @@ import SplashNavRightStars from '../splashcomponents/splashNavRightStars';
 import GetromanHeadShot from './images/getroman_head_shot.jpeg';
 import SplashGetromanLogoWithText from '../splashcomponents/splashGetromanLogoWithText';
 import SplashButton from '../splashcomponents/splashButton';
+import SplashFooterMVDSM from '../splashcomponents/splashFooterMVDSM'; 
 
 class Navsplash extends Component {
     render() {
@@ -87,9 +88,24 @@ class Navsplash extends Component {
                 <div className='containerBreaker'></div>
 
                 <div className='footerContainer'>
-                    <div className='footerHeading'>
-                        <h1 className='footerHeadingChild'>My Minimal Viable <br /> Developer Skillset Model</h1>
+                    <div className='footerHeadingContainer'>
+                        <h1 className='footerHeading'>My Minimal Viable <br /> Developer Skillset Model</h1>
                     </div>
+
+                    <div className='footerTextContainer'>
+                        <p className='footerText'>In my 6 years of experience as a self-taught developer, I  
+                        have learned how to learn, identified my most effective 
+                        learning style, owned the stage as a technical instructor 
+                        and invented a new pedagogy called Draw Act Build (D.A.B) 
+                        that helped code-newbies retain technical concepts. I 
+                        comprised all these experiences to produce a model that 
+                        best illustrates my high-level competencies as a developer. </p>
+                    </div>
+
+                    <div className='MVDSMContainer'>
+                        <SplashFooterMVDSM />
+                    </div>
+
                 </div>
 
             </div>  
