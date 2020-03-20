@@ -259,7 +259,8 @@
     .MVDSMContainer {
         grid-column: 3 / 11;
         grid-row: 7 / 10;
-        /* padding-top: 100px; */
+        display: flex;
+        justify-content: center;
     }
 
     .MVDSMContainer svg {
