@@ -215,7 +215,8 @@
         background: linear-gradient(180deg, #2C3043 37.35%, #0CA678 62.35%);
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(12, 1fr);
+        /* grid-template-rows: repeat(12, 1fr); */
+        grid-template-rows: repeat(14, 1fr);
         grid-gap: 20px;
     }
 
@@ -258,14 +259,30 @@
 
     .MVDSMContainer {
         grid-column: 3 / 11;
-        grid-row: 7 / 10;
+        grid-row: 6 / 10;
         display: flex;
         justify-content: center;
+        padding-top: 100px;
     }
 
     .MVDSMContainer svg {
         height: 470px;
         width: 1280px;
+    }
+
+    .splashWavyFooter {
+        grid-column: 1 / -1;
+        grid-row: 12 / -1;
+    }
+
+    .splashWavyFooter svg {
+        /* height: 423px;
+        display: grid;
+        align-items: flex-end; */
+        /* height: 100%; */
+        /* width="1678" height="423" */
+        /* height: 100%; */
+        /* width: 100%; */
     }
     /* end of main section  */
 }

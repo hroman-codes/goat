@@ -15,6 +15,7 @@ import GetromanHeadShot from './images/getroman_head_shot.jpeg';
 import SplashGetromanLogoWithText from '../splashcomponents/splashGetromanLogoWithText';
 import SplashButton from '../splashcomponents/splashButton';
 import SplashFooterMVDSM from '../splashcomponents/splashFooterMVDSM'; 
+import SplashWavyFooter from '../splashcomponents/splashWavyFooter'; 
 
 class Navsplash extends Component {
     render() {
@@ -104,6 +105,10 @@ class Navsplash extends Component {
 
                     <div className='MVDSMContainer'>
                         <SplashFooterMVDSM />
+                    </div>
+
+                    <div className='splashWavyFooter'>
+                        <SplashWavyFooter /> 
                     </div>
 
                 </div>
