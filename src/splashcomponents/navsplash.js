@@ -16,6 +16,9 @@ import SplashGetromanLogoWithText from '../splashcomponents/splashGetromanLogoWi
 import SplashButton from '../splashcomponents/splashButton';
 import SplashFooterMVDSM from '../splashcomponents/splashFooterMVDSM'; 
 import SplashWavyFooter from '../splashcomponents/splashWavyFooter'; 
+import SplashGetromanSpaceShip from '../splashcomponents/splashGetromanSpaceShip';
+import SplashFooterStars from '../splashcomponents/splashFooterStars';
+import SplashFooterButton from '../splashcomponents/splashFooterButton';
 
 class Navsplash extends Component {
     render() {
@@ -107,8 +110,24 @@ class Navsplash extends Component {
                         <SplashFooterMVDSM />
                     </div>
 
+                    <div className='splashFooterStars'>
+                        <SplashFooterStars />
+                    </div>
+
+                    <div className='leftGetromanSpaceShip'>
+                        <SplashGetromanSpaceShip />
+                    </div>
+
+                    <div className='rightGetromanSpaceShip'>
+                        <SplashGetromanSpaceShip />
+                    </div>
+
                     <div className='splashWavyFooter'>
                         <SplashWavyFooter /> 
+                    </div>
+
+                    <div className='splashFooterButton'>
+                        <SplashFooterButton />
                     </div>
 
                 </div>

@@ -215,8 +215,7 @@
         background: linear-gradient(180deg, #2C3043 37.35%, #0CA678 62.35%);
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        /* grid-template-rows: repeat(12, 1fr); */
-        grid-template-rows: repeat(14, 1fr);
+        grid-template-rows: repeat(13, 1fr);
         grid-gap: 20px;
     }
 
@@ -270,19 +269,41 @@
         width: 1280px;
     }
 
-    .splashWavyFooter {
-        grid-column: 1 / -1;
-        grid-row: 12 / -1;
+    .splashFooterStars {
+        width: 1590px;
+        height: 269px;
+        grid-column: 2 / -1;
+        grid-row: 10 / -1;
     }
 
-    .splashWavyFooter svg {
-        /* height: 423px;
-        display: grid;
-        align-items: flex-end; */
-        /* height: 100%; */
-        /* width="1678" height="423" */
-        /* height: 100%; */
-        /* width: 100%; */
+    .leftGetromanSpaceShip {
+        grid-column: 2 / 4;
+        grid-row: 9 / -1;
+    }
+
+    .leftGetromanSpaceShip svg {
+        height: 431px;
+        width: 323;
+    }
+
+    .rightGetromanSpaceShip {
+        grid-column: 11 / -1;
+        grid-row: 10 / -1;
+    }
+
+    .rightGetromanSpaceShip svg {
+        height: 140px;
+        width: 105px;
+    }
+
+    .splashWavyFooter {
+        grid-column: 1 / -1;
+        grid-row: 11 / -1;
+    }
+
+    .splashFooterButton {
+        grid-column: 5 / 9;
+        grid-row: 10 / -1;
     }
     /* end of main section  */
 }
