@@ -97,13 +97,12 @@ class Navsplash extends Component {
                     </div>
 
                     <div className='footerTextContainer'>
-                        <p className='footerText'>In my 6 years of experience as a self-taught developer, I  
-                        have learned how to learn, identified my most effective 
-                        learning style, owned the stage as a technical instructor 
-                        and invented a new pedagogy called Draw Act Build (D.A.B) 
-                        that helped code-newbies retain technical concepts. I 
-                        comprised all these experiences to produce a model that 
-                        best illustrates my high-level competencies as a developer. </p>
+                        <p className='footerText'>In my 6 years of experience as a self-taught developer, 
+                        I have learned how to learn, identified my most effective learning style, owned the 
+                        stage as a technical instructor and invented a new pedagogy called Draw Act Build (D.A.B) 
+                        that helped code-newbies retain technical concepts. I've cultivated my experiences to produce 
+                        a visual model that best illustrates my DNA make-up as a developer, communicator, and problem solver. 
+                        This is my Minimal Viable Developer Skillset Model.</p>
                     </div>
 
                     <div className='MVDSMContainer'>
