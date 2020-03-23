@@ -35,7 +35,7 @@ const Button = styled.button`
     text-align: center;
     width: 455px;
     @media all and (max-width: 1912px) and (min-width:1550px) {
-        margin-top: 35px; 
+        margin-top: 15px; 
     }
     &:hover {
         color: rgba(255, 255, 255, 1);
