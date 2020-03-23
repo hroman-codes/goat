@@ -121,12 +121,12 @@ class Navsplash extends Component {
                         <SplashGetromanSpaceShip />
                     </div>
 
-                    <div className='splashWavyFooter'>
-                        <SplashWavyFooter /> 
-                    </div>
-
                     <div className='splashFooterButton'>
                         <SplashFooterButton />
+                    </div>
+
+                    <div className='splashWavyFooter'>
+                        <SplashWavyFooter /> 
                     </div>
 
                 </div>
