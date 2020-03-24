@@ -45,6 +45,14 @@ const Button = styled.button`
             4px 4px 0 0 #C4C4C4,
             5px 5px 0 0 #C4C4C4;
     }
+    @media all and (max-width: 1588px) and (min-width: 1200px) {
+        margin-top: 15px; 
+        width: 355px;
+    }
+    @media all and (max-width: 1200px) and (min-width:980px) {
+        margin-top: 15px; 
+        width: 355px;
+    }
 `
 
 const Anchor = styled.a `
