@@ -37,7 +37,7 @@ const Button = styled.button`
     @media all and (max-width: 1912px) and (min-width:1200px) {
         margin-top: 15px; 
     }
-    @media all and (max-width: 1200px) and (min-width:980px) {
+    @media all and (max-width: 1200px) and (min-width:968px) {
         margin-top: 15px; 
         width: 355px;
     }

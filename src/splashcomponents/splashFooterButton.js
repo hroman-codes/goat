@@ -53,7 +53,7 @@ const Button = styled.button`
         margin-top: 15px; 
         width: 355px;
     }
-    @media all and (max-width: 1026px) and (min-width:980px) {
+    @media all and (max-width: 1026px) and (min-width:968px) {
         font-size: 25px;
         height: 80px;
         /* margin-top: 0px; */
