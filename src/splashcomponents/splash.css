@@ -2458,77 +2458,66 @@
         object-position: top;
     }
 
-    .splashGetromanLogoWithText {
+    .getromanHeadlineDetailsContainer {
         background-color: #25283B;
-        grid-column: 1 / -1;
-        grid-row: 2 / 6;
-        display: flex;
-        justify-content: center;
-        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(13, 5vw);
+        grid-gap: 10px;
+    }
+
+    .splashGetromanLogoWithText {
+        grid-column: 2 / 8;
+        grid-row: 2 / 5;
     } 
 
-    .splashGetromanLogoWithText svg {
-        width: 573px;
-        height: 132px;
-        padding-top: 5%;
+    .getromanIntroTextContainer {
+        grid-column: 1 / 9;
+        grid-row: 5 / 10;
     }
-
-    .getromanIntroText {
-        visibility: hidden;
-        grid-column: 7 / -1;
-        grid-row: 2 / 4;
-    }
-
-    .getromanIntroText p:first-child  {
-        visibility: hidden;
+    
+    .getromanIntroTextContainer p:first-child  {
         color: #c4c4c4;
         font-family: IBM Plex Mono;
         font-style: normal;
         font-weight: 600;
         font-size: 35px;
-        line-height: 60px;
+        line-height: 46px;
+        margin-top: 40px;
+        margin-bottom: 40px;
         text-align: center;
     }
 
-    .getromanIntroText p:nth-child(2) {
-        visibility: hidden;
+    .getromanIntroTextContainer p:nth-child(2) {
         color: #c4c4c4;
         font-family: IBM Plex Mono;
         font-style: normal;
         font-weight: 600;
-        font-size: 30px;
+        font-size: 35px;
         line-height: 45px;
+        margin-top: 40px;
+        margin-bottom: 40px;
         text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-        height: 25%;
     }
 
-    .fa-linkedin-in, .fa-github, .fa-dribbble, .fa-medium-m, .fa-aws {
-        visibility: hidden;
-        font-size: 60px;
-    }
-
-    .fa-envelope {
-        visibility: hidden;
-        padding-right: 15px;
-    }
-
-    .splashSocialMediaIcons {
-        visibility: hidden;
-        grid-column: 7 / 13;
-        grid-row: 4 / 5;
+    .splashSocialMediaIconsContainer {
+        grid-column: 2 / 8;
+        grid-row: 10 / 12;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
         height: 100%;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 
     .splashSocialMediaIcons i {
-        visibility: hidden;
         color: #C4C4C4;
+    }
+
+    .fa-linkedin-in, .fa-github, .fa-dribbble, .fa-medium-m, .fa-aws {
+        font-size: 80px;
     }
 
     .bottomMainContainer {

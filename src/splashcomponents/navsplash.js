@@ -165,29 +165,46 @@ const Navsplash = () => {
                 </div>
 
                 <div className='containerBreaker'></div>
+
                 <div className='headShotPhotoContainer'>
-                    {/* <img className='getromanPicture' src={GetromanHeadShot} alt='head_shot' /> */}
                     <figure className='getromanPictureContainer'>
                         <img className='getromanPicture' src={GetromanHeadShot} alt='head_shot' />
                     </figure>
-                    {/* <div className='getromanPictureContainer'> */}
-                        {/* <div className='getromanPicture'></div> */}
-                        {/* <img className='getromanPicture' src={GetromanHeadShot} alt='head_shot' /> */}
-                    {/* </div> */}
+                </div>
 
-                    {/* <div className='testBackground'>
-                        create a background
+                <div className='getromanHeadlineDetailsContainer'>
+                    <div className='splashGetromanLogoWithText'>
                         <SplashGetromanLogoWithText /> 
-                    </div> */}
+                    </div>
 
-                    {/* <div className='splashGetromanLogoWithText'>
-                            <SplashGetromanLogoWithText /> 
-                    </div> */}
-
-                    {/* <div className='getromanIntroText'> 
+                    <div className='getromanIntroTextContainer'>
                         <p> Developer | Technical Instructor | AWS Certified Cloud Practitioner </p>
                         <p> <i class="fas fa-envelope"></i> getroman.dev@gmail.com </p>
-                    </div> */}
+                    </div>
+
+                    <div className='splashSocialMediaIconsContainer splashSocialMediaIcons'>
+                        <a href='https://www.linkedin.com/in/heribertoroman/' target='_blank'>
+                            <i class="fab fa-linkedin-in fa-7x"></i>
+                        </a>
+
+                        <a href='https://github.com/getromandev' target='_blank'>
+                            <i class="fab fa-github fa-7x"></i>
+                        </a>
+
+                        <a href='https://dribbble.com/getroman' target='_blank'>
+                            <i class="fab fa-dribbble fa-7x"></i>
+                        </a>
+
+                        <a href='https://medium.com/@getroman.dev' target='_blank'>
+                            <i class="fab fa-medium-m fa-7x"></i>
+                        </a>
+                        
+                        <a href='https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-12-02&ci=AWS01186088' target='_blank'>
+                            <i class="fab fa-aws fa-7x"></i>
+                        </a>
+                    </div>
+                </div>
+
 
                     {/* <div className='splashSocialMediaIcons'>
                         <a href='https://www.linkedin.com/in/heribertoroman/' target='_blank'>
@@ -218,7 +235,6 @@ const Navsplash = () => {
                         <SplashButton />
                     </div> */}
 
-                </div>
 
                 {/* <div className='containerBreaker'></div> */}
 
