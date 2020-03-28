@@ -56,8 +56,13 @@ const Button = styled.button`
     @media all and (max-width: 1026px) and (min-width:968px) {
         font-size: 25px;
         height: 80px;
-        /* margin-top: 0px; */
         width: 200px;
+    }
+    @media all and (max-width: 967px) and (min-width:730px) {
+        margin-top: 0px;
+        font-size: 20px;
+        height: 75px;
+        width: 178px;
     }
 `
 
@@ -69,7 +74,7 @@ const Anchor = styled.a `
 
 const SplashFooterButton = () => {
     return (
-        <Anchor href="mailto:getroman.dev@gmail.com?subject=Heriberto we would like to hire you, Let's talk." target="_blank">
+        <Anchor href="mailto:getroman.dev@gmail.com?subject=Heriberto we would like to hire you, let's talk." target="_blank">
             <Button>MESSAGE ME</Button>
         </Anchor>
     )
