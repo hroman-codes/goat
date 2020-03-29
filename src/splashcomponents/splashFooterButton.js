@@ -64,6 +64,12 @@ const Button = styled.button`
         height: 75px;
         width: 178px;
     }
+    @media all and (max-width: 729px) and (min-width:600px) {
+        margin-top: 0px;
+        font-size: 20px;
+        height: 75px;
+        width: 178px;
+    }
 `
 
 const Anchor = styled.a `

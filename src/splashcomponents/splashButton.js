@@ -44,6 +44,9 @@ const Button = styled.button`
     @media all and (max-width: 967px) and (min-width:730px) {
         margin-top: 30px;
     }
+    @media all and (max-width: 729px) and (min-width:600px) {
+        margin-top: 10px;
+    }
     &:hover {
         color: rgba(255, 255, 255, 1);
     }
@@ -62,6 +65,10 @@ const Anchor = styled.a `
     justify-content: center;
     text-decoration: none;
     @media all and (max-width: 967px) and (min-width:730px) {
+        width: 355px;
+        margin: 0 auto;
+    }
+    @media all and (max-width: 729px) and (min-width:600px) {
         width: 355px;
         margin: 0 auto;
     }
