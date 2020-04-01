@@ -297,8 +297,6 @@ const Navsplash = () => {
                     </div>
                 </div>
 
-                <div className='containerBreaker'></div>
-
                 <div className='headShotPhotoContainer'>
                     <figure className='getromanPictureContainer'>
                         <img className='getromanPicture' src={GetromanHeadShot} alt='head_shot' />
@@ -306,16 +304,21 @@ const Navsplash = () => {
                 </div>
 
                 <div className='getromanHeadlineDetailsContainer'>
-                    {/* <div className='splashGetromanLogoWithText' >
-                        <SplashGetromanLogoWithText /> 
-                    </div> */}
 
                     <div className='getromanIntroTextContainer'>
                         <p> Developer | Technical Instructor | AWS Certified Cloud Practitioner </p>
-                        <p> <i class="fas fa-envelope"></i> getroman.dev@gmail.com </p>
                     </div>
 
-                    <div className='splashSocialMediaIconsContainer splashSocialMediaIcons'>
+                    <div className='getromanIntroTextButton'>
+                        <SplashFooterButton />
+                    </div>
+
+                </div>
+
+                <div className='getromanSocialMediaGrid  splashSocialMediaIcons'>
+                    <div className='linkedInContainer'>
+
+                    </div>
                         <a href='https://www.linkedin.com/in/heribertoroman/' target='_blank'>
                             <i class="fab fa-linkedin-in fa-7x"></i>
                         </a>
@@ -336,7 +339,6 @@ const Navsplash = () => {
                             <i class="fab fa-aws fa-7x"></i>
                         </a>
                     </div>
-                </div>
 
                 
                 <div className='coreValuesShotPhotoContainer'>
@@ -380,10 +382,6 @@ const Navsplash = () => {
 
                     <div className='footerLeftSpaceship'>
                         <SplashGetromanSpaceShip />
-                    </div>
-
-                    <div className='footerButtonContainer'>
-                        <SplashFooterButton />
                     </div>
 
                     <div className='footerRightSpaceship'>

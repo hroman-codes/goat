@@ -3070,11 +3070,6 @@
     /* end of nav section  */
     /* =============== */
 
-    .containerBreaker {
-        display: grid;
-        border: 2px solid #D6D4D1;
-    }
-
     /* =============== */
     /* start of main section  */
     /* =============== */
@@ -3103,13 +3098,13 @@
         background-color: #25283B;
         display: grid;
         grid-template-columns: repeat(8, 1fr);
-        grid-template-rows: repeat(13, 5vw);
+        grid-template-rows: repeat(8, 5vw);
         grid-gap: 10px;
     }
 
     .getromanIntroTextContainer {
         grid-column: 1 / 9;
-        grid-row: 5 / 10;
+        grid-row: 1 / 4;
     }
     
     .getromanIntroTextContainer p:first-child  {
@@ -3117,24 +3112,34 @@
         font-family: IBM Plex Mono;
         font-style: normal;
         font-weight: 600;
-        font-size: 25px;
+        font-size: 26px;
         line-height: 46px;
         margin-top: 25px;
         margin-bottom: 40px;
         text-align: center;
     }
 
-    .getromanIntroTextContainer p:nth-child(2) {
-        color: #c4c4c4;
-        font-family: IBM Plex Mono;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 25px;
-        line-height: 45px;
-        margin-top: 40px;
-        margin-bottom: 40px;
-        text-align: center;
+    .getromanIntroTextButton {
+        display: flex;
+        justify-content: center;
+        grid-column: 2 / 8;
+        grid-row: 5 / 7;
     }
+
+    .getromanSocialMediaGrid {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(18, 5vw);
+    }
+
+    .linkedInContainer {
+        
+    }
+
+
+
+
+
 
     .splashSocialMediaIconsContainer {
         grid-column: 2 / 8;
@@ -3269,13 +3274,6 @@
     .footerLeftSpaceship svg {
         height: 200px;
         width: 177px;
-    }
-
-    .footerButtonContainer {
-        display: flex;
-        justify-content: center;
-        grid-column: 3 / 7;
-        grid-row: 19 / 21;
     }
 
     .footerRightSpaceship {
