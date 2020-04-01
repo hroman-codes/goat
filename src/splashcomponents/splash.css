@@ -3129,36 +3129,76 @@
     .getromanSocialMediaGrid {
         display: grid;
         grid-template-columns: repeat(8, 1fr);
-        grid-template-rows: repeat(18, 5vw);
+        grid-template-rows: repeat(15, 5vw);
+        grid-gap: 10px;
     }
 
     .linkedInContainer {
-        
-    }
-
-
-
-
-
-
-    .splashSocialMediaIconsContainer {
-        grid-column: 2 / 8;
-        grid-row: 10 / 12;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
         align-items: center;
+        background-color: #C4C4C4;
+        display: flex;
+        grid-column: 1 / 5;
+        grid-row: 1 / 6;
         height: 100%;
-        margin-top: 40px;
-        margin-bottom: 40px;
+        justify-content: center;
+        border: 0.5px solid rgba(37, 40, 59, 0.5);
+        box-sizing: border-box;
     }
 
-    .splashSocialMediaIcons i {
-        color: #C4C4C4;
+    .mediumContainer {
+        align-items: center;
+        background-color: #C4C4C4;
+        display: flex;
+        grid-column: 5 / -1;
+        grid-row: 1 / 6;
+        height: 100%;
+        justify-content: center;
+        border: 0.5px solid rgba(37, 40, 59, 0.5);
+        box-sizing: border-box;
+    }
+
+    .githubContainer {
+        align-items: center;
+        background-color: #C4C4C4;
+        display: flex;
+        grid-column: 1 / 5;
+        grid-row: 6 / 11;
+        height: 100%;
+        justify-content: center;
+        border: 0.5px solid rgba(37, 40, 59, 0.5);
+        box-sizing: border-box;
+    }
+
+    .dribbleContainer {
+        align-items: center;
+        background-color: #C4C4C4;
+        display: flex;
+        grid-column: 5 / -1;
+        grid-row: 6 / 11;
+        height: 100%;
+        justify-content: center;
+        border: 0.5px solid rgba(37, 40, 59, 0.5);
+        box-sizing: border-box;
+    }
+
+    .awsContainer {
+        align-items: center;
+        background-color: #C4C4C4;
+        display: flex;
+        grid-column: 1 / -1;
+        grid-row: 11 / 16;
+        height: 100%;
+        justify-content: center;
+        border: 0.5px solid rgba(37, 40, 59, 0.5);
+        box-sizing: border-box;
+    }
+
+    .splashSocialMediaIcons {
+        color: #25283B;
     }
 
     .fa-linkedin-in, .fa-github, .fa-dribbble, .fa-medium-m, .fa-aws {
-        font-size: 60px;
+        font-size: 100px;
     }
 
     .coreValuesShotPhotoContainer {

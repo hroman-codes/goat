@@ -315,30 +315,39 @@ const Navsplash = () => {
 
                 </div>
 
-                <div className='getromanSocialMediaGrid  splashSocialMediaIcons'>
-                    <div className='linkedInContainer'>
+                <div className='getromanSocialMediaGrid'>
 
-                    </div>
-                        <a href='https://www.linkedin.com/in/heribertoroman/' target='_blank'>
+                    <div className='linkedInContainer'>
+                        <a href='https://www.linkedin.com/in/heribertoroman/' target='_blank' className='splashSocialMediaIcons'>
                             <i class="fab fa-linkedin-in fa-7x"></i>
                         </a>
+                    </div>
 
-                        <a href='https://github.com/getromandev' target='_blank'>
-                            <i class="fab fa-github fa-7x"></i>
-                        </a>
-
-                        <a href='https://dribbble.com/getroman' target='_blank'>
-                            <i class="fab fa-dribbble fa-7x"></i>
-                        </a>
-
-                        <a href='https://medium.com/@getroman.dev' target='_blank'>
+                    <div className='mediumContainer'>
+                        <a href='https://medium.com/@getroman.dev' target='_blank' className='splashSocialMediaIcons'>
                             <i class="fab fa-medium-m fa-7x"></i>
                         </a>
-                        
-                        <a href='https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-12-02&ci=AWS01186088' target='_blank'>
+                    </div>
+
+                    <div className='githubContainer'>
+                        <a href='https://github.com/getromandev' target='_blank' className='splashSocialMediaIcons'>
+                            <i class="fab fa-github fa-7x"></i>
+                        </a>
+                    </div>
+
+                    <div className='dribbleContainer'>
+                        <a href='https://dribbble.com/getroman' target='_blank' className='splashSocialMediaIcons'>
+                            <i class="fab fa-dribbble fa-7x"></i>
+                        </a>
+                    </div>
+
+                    <div className='awsContainer'>
+                        <a href='https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-12-02&ci=AWS01186088' target='_blank' className='splashSocialMediaIcons'>
                             <i class="fab fa-aws fa-7x"></i>
                         </a>
                     </div>
+
+                </div>
 
                 
                 <div className='coreValuesShotPhotoContainer'>
