@@ -3340,7 +3340,7 @@
     /* =============== */ 
 }
 
-@media all and (max-width: 545px) and (min-width: 400px) {
+@media all and (max-width: 545px) and (min-width: 476px) {
     /* =============== */
     /* start of nav section  */
     /* =============== */
@@ -3446,7 +3446,7 @@
         font-family: IBM Plex Mono;
         font-style: normal;
         font-weight: 600;
-        font-size: 35px;
+        font-size: 25px;
         line-height: 46px;
         margin-top: 25px;
         margin-bottom: 40px;
@@ -3457,7 +3457,7 @@
         display: flex;
         justify-content: center;
         grid-column: 2 / 8;
-        grid-row: 6 / 9;
+        grid-row: 7 / 10;
     }
 
     .getromanSocialMediaGrid {
@@ -3576,8 +3576,6 @@
         grid-column: 1 / -1;
         grid-row: 1 / 5;
         padding-left: 25px;
-        margin-top: 25px;
-        margin-bottom: 25px;
     }
 
     .MVDSMHeadingText {
@@ -3593,7 +3591,7 @@
 
     .MVDSMAboutMeContainer {
         grid-column: 1 / 9;
-        grid-row: 3 / 10;
+        grid-row: 6 / 12;
         padding-left: 25px;
     }
 
@@ -3610,17 +3608,17 @@
 
     .MVDSMGraphContainer {
         grid-column: 1 / 9;
-        grid-row: 11 / 18;
+        grid-row: 13 / 20;
     }
 
     .footerStarsContainer {
         grid-column: 2 / 8;
-        grid-row: 19 / 21;
+        grid-row: 19 / 22;
     }
 
     .footerRightSpaceship {
         grid-column: 7 / 8;
-        grid-row: 18 / 20;
+        grid-row: 18 / 22;
     }
 
     .footerRightSpaceship svg {
@@ -3630,7 +3628,7 @@
 
     .footerAlienObjectsContainer {
         grid-column: 1 / -1;
-        grid-row: 19 / 22;
+        grid-row: 19 / 23;
     }
 
     .footerContainer {
@@ -3641,14 +3639,14 @@
 
     .footerContainer p {
         color: #c4c4c4;
-        font-size: 35px;
+        font-size: 25px;
         font-family: IBM Plex Mono;
         font-style: normal;
         font-weight: 600;
         margin-bottom: 0px;
-        padding-top: 30px;
         text-align: center;
-        line-height: 60px;
+        line-height: 45px;
+        padding-top: 4px;
     }
 
     .footerButtonGrid {
@@ -3667,4 +3665,8 @@
     /* =============== */
     /* end of footer section  */
     /* =============== */ 
+}
+
+@media all and (max-width: 475px) and (min-width: 400px) {
+    
 }

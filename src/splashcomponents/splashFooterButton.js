@@ -70,7 +70,7 @@ const Button = styled.button`
         height: 75px;
         width: 178px;
     }
-    @media all and (max-width: 599px) and (min-width: 400px) {
+    @media all and (max-width: 599px) and (min-width: 500px) {
         margin-top: 0px;
         border: 2px solid #C4C4C4;
         background: #25283B;
@@ -99,6 +99,47 @@ const Button = styled.button`
         transition: all .3s ease-out;
         text-align: center;
         width: 250px;
+        &:hover {
+        color: rgba(255, 255, 255, 1);
+        }
+        &:active {
+            box-shadow:inset 0 -4px 0 0 rgba(0,0,0.2),
+                1px 1px 0 0 #C4C4C4,
+                2px 2px 0 0 #C4C4C4,
+                3px 3px 0 0 #C4C4C4,
+                4px 4px 0 0 #C4C4C4,
+                5px 5px 0 0 #C4C4C4;
+        }
+    }
+    @media all and (max-width: 499px) and (min-width:400px) {
+        margin-top: 0px;
+        border: 2px solid #C4C4C4;
+        background: #25283B;
+        box-sizing: border-box;
+        box-shadow: inset 0 -8px 0 0 rgba(0,0,0,.2),
+            1px 1px 0 0 #C4C4C4,
+            2px 2px 0 0 #C4C4C4,
+            3px 3px 0 0 #C4C4C4,
+            4px 4px 0 0 #C4C4C4,
+            5px 5px 0 0 #C4C4C4,
+            6px 6px 0 0 #C4C4C4,
+            7px 7px 0 0 #C4C4C4,
+            8px 8px 0 0 #C4C4C4,
+            9px 9px 0 0 #C4C4C4,
+            10px 10px 0 0 #C4C4C4,
+            11px 11px 0 0 #C4C4C4,
+            12px 12px 0 0 #C4C4C4;
+        color: #C4C4C4;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: IBM Plex Mono;
+        height: 60px;
+        line-height: 45px;
+        letter-spacing: 0.015em;
+        transition: all .3s ease-out;
+        text-align: center;
+        width: 200px;
         &:hover {
         color: rgba(255, 255, 255, 1);
         }

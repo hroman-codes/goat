@@ -52,6 +52,11 @@ const Button = styled.button`
         height: 90px;
         font-size: 25px;
     }
+    /* @media all and (max-width: 499px) and (min-width:400px) {
+        margin-top: 0px;
+        height: 90px;
+        font-size: 25px;
+    } */
     &:hover {
         color: rgba(255, 255, 255, 1);
     }
@@ -81,6 +86,10 @@ const Anchor = styled.a `
         width: 250px;
         margin: 0 auto;
     }
+    /* @media all and (max-width: 499px) and (min-width:400px) {
+        width: 150px;
+        margin: 0 auto; 
+    } */
 `
 
 const SplashButton = () => {
