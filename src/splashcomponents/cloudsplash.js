@@ -15,5 +15,3 @@ const Cloudsplash = () => {
 }
 
 export default Cloudsplash;
-
-// width="100%" height="auto"

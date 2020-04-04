@@ -98,7 +98,7 @@ const Button = styled.button`
         letter-spacing: 0.015em;
         transition: all .3s ease-out;
         text-align: center;
-        width: 300px;
+        width: 250px;
         &:hover {
         color: rgba(255, 255, 255, 1);
         }

@@ -1,4 +1,4 @@
-import React, { Component, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './splash.css';
 
 import Cloudsplash from './cloudsplash'; 
@@ -19,6 +19,7 @@ import SplashWavyFooter from '../splashcomponents/splashWavyFooter';
 import SplashGetromanSpaceShip from '../splashcomponents/splashGetromanSpaceShip';
 import SplashFooterStars from '../splashcomponents/splashFooterStars';
 import SplashFooterButton from '../splashcomponents/splashFooterButton';
+import FooterAlienObjects from '../splashcomponents/footerAlienObjects';
 
 const Navsplash = () => {
 
@@ -356,18 +357,11 @@ const Navsplash = () => {
                     </figure>
                 </div>
 
-                <div className='getromanLearnMoreGrid'>
-                    <div className='getromanLearnMoreContainer'>
-                        <p>Follow the dev process of Getroman.dev.</p>
-                        <SplashButton />
-                    </div>
-                </div>
-
                 <div className='containerBreaker'></div>
                 
                 <div className='footerGrid'>
                     <div className='MVDSMHeadingContainer'>
-                        <h1 className='MVDSMHeadingText'>My Minimal Viable <br /> Developer Skillset Model</h1>
+                        <h2 className='MVDSMHeadingText'>My Minimal Viable <br /> Developer Skillset Model</h2>
                     </div>
 
                     <div className='MVDSMAboutMeContainer'> 
@@ -389,18 +383,24 @@ const Navsplash = () => {
                         <SplashFooterStars />
                     </div>
 
-                    <div className='footerLeftSpaceship'>
-                        <SplashGetromanSpaceShip />
-                    </div>
-
                     <div className='footerRightSpaceship'>
                         <SplashGetromanSpaceShip />
                     </div>
 
-                    <div className='footerWavyContainer'>
-                        <SplashWavyFooter />
+                    <div className='footerContainer'>
+                        <p>Follow the dev process of Getroman.dev.</p>
+                    </div>  
+
+                    <div className='footerAlienObjectsContainer'>
+                        <FooterAlienObjects />
                     </div>
 
+                </div>
+
+                <div className='footerButtonGrid'>
+                    <div className='footerButtonContainer'>
+                        <SplashButton />
+                    </div>
                 </div>
             </div>
         )
