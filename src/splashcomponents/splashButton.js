@@ -47,16 +47,16 @@ const Button = styled.button`
     @media all and (max-width: 729px) and (min-width:600px) {
         margin-top: 10px;
     }
-    @media all and (max-width: 599px) and (min-width:400px) {
+    @media all and (max-width: 599px) and (min-width:415px) {
         margin-top: 0px;
         height: 90px;
         font-size: 25px;
     }
-    /* @media all and (max-width: 499px) and (min-width:400px) {
+    @media all and (max-width: 414px) and (min-width:300px) {
         margin-top: 0px;
-        height: 90px;
-        font-size: 25px;
-    } */
+        height: 50px;
+        font-size: 15px;
+    }
     &:hover {
         color: rgba(255, 255, 255, 1);
     }
@@ -82,14 +82,14 @@ const Anchor = styled.a `
         width: 355px;
         margin: 0 auto;
     }
-    @media all and (max-width: 599px) and (min-width:400px) {
+    @media all and (max-width: 599px) and (min-width:415px) {
         width: 250px;
         margin: 0 auto;
     }
-    /* @media all and (max-width: 499px) and (min-width:400px) {
+    @media all and (max-width: 414px) and (min-width:300px) {
         width: 150px;
         margin: 0 auto; 
-    } */
+    }
 `
 
 const SplashButton = () => {
