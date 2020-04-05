@@ -4,7 +4,7 @@
 
 /* GENERAL MEDIA QUERIES */
 /* this breaks @ min width of 1913px */
-@media all and (max-width: 2500px) and (min-width: 1913px) {
+@media all and (min-width: 1913px) {
     /* =============== */
     /* start of nav section  */
     /* =============== */
