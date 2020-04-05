@@ -52,7 +52,7 @@ const Button = styled.button`
         height: 90px;
         font-size: 25px;
     }
-    @media all and (max-width: 414px) and (min-width:300px) {
+    @media all and (max-width: 414px) and (min-width:1px) {
         margin-top: 0px;
         height: 50px;
         font-size: 15px;
@@ -86,7 +86,7 @@ const Anchor = styled.a `
         width: 250px;
         margin: 0 auto;
     }
-    @media all and (max-width: 414px) and (min-width:300px) {
+    @media all and (max-width: 414px) and (min-width:1px) {
         width: 150px;
         margin: 0 auto; 
     }

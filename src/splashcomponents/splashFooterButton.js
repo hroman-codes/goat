@@ -152,7 +152,7 @@ const Button = styled.button`
                 5px 5px 0 0 #C4C4C4;
         }
     }
-    @media all and (max-width: 397px) and (min-width:300px) {
+    @media all and (max-width: 397px) and (min-width:1px) {
         margin-top: 5px;
         border: 2px solid #C4C4C4;
         background: #25283B;
