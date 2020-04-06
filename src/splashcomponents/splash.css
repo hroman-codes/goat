@@ -5431,7 +5431,7 @@
         display: grid;
         background: linear-gradient(180deg, #2C3043 37.35%, #0CA678 62.35%);
         grid-template-columns: repeat(8, 1fr);
-        grid-template-rows: repeat(27, 5vw);
+        grid-template-rows: repeat(28, 5vw);
         grid-gap: 20px;
     }
 
@@ -5446,15 +5446,15 @@
         font-family: IBM Plex Mono;
         font-style: normal;
         font-weight: 600;
-        font-size: 23px;
-        line-height: 36px;
+        font-size: 20px;
+        line-height: 34px;
         margin: 0px;
         text-align: left;
     }  
 
     .MVDSMAboutMeContainer {
         grid-column: 1 / 9;
-        grid-row: 10 / 19;
+        grid-row: 11 / 20;
         padding-left: 25px;
     }
 
@@ -5471,13 +5471,13 @@
 
     .MVDSMGraphContainer {
         grid-column: 1 / 9;
-        grid-row: 18 / 25;
+        grid-row: 19 / 26;
     }
 
     .footerContainer {
         background-color: #25283B;
         grid-column: 1 / -1;
-        grid-row: 24 / 28;
+        grid-row: 25 / 29;
         padding-top: 5px;
     }
 
