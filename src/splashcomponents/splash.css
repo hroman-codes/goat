@@ -4454,7 +4454,7 @@
     .footerGrid {
         align-items: end;
         display: grid;
-        background: linear-gradient(180deg, #2C3043 37.35%, #0CA678 62.35%);
+        background: linear-gradient(180deg, #2C3043 63.35%, #0CA678 90.35%);
         grid-template-columns: repeat(8, 1fr);
         grid-template-rows: repeat(24, 5vw);
         grid-gap: 20px;
@@ -4779,7 +4779,7 @@
     .footerGrid {
         align-items: end;
         display: grid;
-        background: linear-gradient(180deg, #2C3043 37.35%, #0CA678 62.35%);
+        background: linear-gradient(180deg, #2C3043 63.35%, #0CA678 90.35%);
         grid-template-columns: repeat(8, 1fr);
         grid-template-rows: repeat(25, 5vw);
         grid-gap: 20px;
@@ -5104,7 +5104,7 @@
     .footerGrid {
         align-items: end;
         display: grid;
-        background: linear-gradient(180deg, #2C3043 37.35%, #0CA678 62.35%);
+        background: linear-gradient(180deg, #2C3043 63.35%, #0CA678 90.35%);
         grid-template-columns: repeat(8, 1fr);
         grid-template-rows: repeat(25, 5vw);
         grid-gap: 20px;
@@ -5429,7 +5429,7 @@
     .footerGrid {
         align-items: end;
         display: grid;
-        background: linear-gradient(180deg, #2C3043 37.35%, #0CA678 62.35%);
+        background: linear-gradient(180deg, #2C3043 63.35%, #0CA678 90.35%);
         grid-template-columns: repeat(8, 1fr);
         grid-template-rows: repeat(28, 5vw);
         grid-gap: 20px;
