@@ -4499,26 +4499,6 @@
         grid-row: 15 / 22;
     }
 
-    .footerStarsContainer {
-        grid-column: 2 / 8;
-        grid-row: 19 / 23;
-    }
-
-    .footerRightSpaceship {
-        grid-column: 7 / 8;
-        grid-row: 21 / 23;
-    }
-
-    .footerRightSpaceship svg {
-        height: 80px;
-        width: 50px;
-    }
-
-    .footerAlienObjectsContainer {
-        grid-column: 2 / 8;
-        grid-row: 19 / 24;
-    }
-
     .footerContainer {
         background-color: #25283B;
         grid-column: 1 / -1;
@@ -4844,29 +4824,6 @@
         grid-row: 16 / 23;
     }
 
-    .footerStarsContainer {
-        display: none;
-        grid-column: 2 / 8;
-        grid-row: 19 / 23;
-    }
-
-    .footerRightSpaceship {
-        display: none;
-        grid-column: 7 / 8;
-        grid-row: 21 / 23;
-    }
-
-    .footerRightSpaceship svg {
-        height: 80px;
-        width: 50px;
-    }
-
-    .footerAlienObjectsContainer {
-        display: none;
-        grid-column: 2 / 8;
-        grid-row: 19 / 24;
-    }
-
     .footerContainer {
         background-color: #25283B;
         grid-column: 1 / -1;
@@ -5190,29 +5147,6 @@
     .MVDSMGraphContainer {
         grid-column: 1 / 9;
         grid-row: 16 / 23;
-    }
-
-    .footerStarsContainer {
-        display: none;
-        grid-column: 2 / 8;
-        grid-row: 19 / 23;
-    }
-
-    .footerRightSpaceship {
-        display: none;
-        grid-column: 7 / 8;
-        grid-row: 21 / 23;
-    }
-
-    .footerRightSpaceship svg {
-        height: 80px;
-        width: 50px;
-    }
-
-    .footerAlienObjectsContainer {
-        display: none;
-        grid-column: 2 / 8;
-        grid-row: 19 / 24;
     }
 
     .footerContainer {
