@@ -3872,7 +3872,7 @@
     .navTopBarGrid {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(1, 0.8vw);
+        grid-template-rows: repeat(1, 1vw);
     }
 
     .navHeader1 {
@@ -4217,7 +4217,7 @@
     .navTopBarGrid {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(1, 0.8vw);
+        grid-template-rows: repeat(1, 1vw);
     }
 
     .navHeader1 {
@@ -4562,7 +4562,7 @@
     .navTopBarGrid {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(1, 0.8vw);
+        grid-template-rows: repeat(1, 1vw);
     }
 
     .navHeader1 {
@@ -4809,6 +4809,7 @@
         grid-column: 1 / -1;
         grid-row: 1 / 4;
         padding-left: 25px;
+        padding-top: 25px;
     }
 
     .MVDSMHeadingText {
@@ -4910,7 +4911,7 @@
     .navTopBarGrid {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(1, 0.8vw);
+        grid-template-rows: repeat(1, 1vw);
     }
 
     .navHeader1 {
