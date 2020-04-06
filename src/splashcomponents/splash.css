@@ -8,15 +8,26 @@
     /* =============== */
     /* start of nav section  */
     /* =============== */
-    .navTopBarContainer {
+    .navTopBarGrid {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1 5vw);
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 0.8vw);
     }
 
-    .navTopBarContainer {
-        grid-column: 1 / -1;
-        grid-row: 1 / -1;
+    .navHeader1 {
+        background: #E05547;
+    }
+
+    .navHeader2 {
+        background: #E99F2D;
+    }
+
+    .navHeader3 {
+        background: #5FB77A;
+    }
+
+    .navHeader4 {
+        background: #47B0BE;
     }
 
     .navBodyContainer {
@@ -337,15 +348,26 @@
     /* =============== */
     /* start of nav section  */
     /* =============== */
-    .navTopBarContainer {
+    .navTopBarGrid {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1 5vw);
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 0.8vw);
     }
 
-    .navTopBarContainer {
-        grid-column: 1 / -1;
-        grid-row: 1 / -1;
+    .navHeader1 {
+        background: #E05547;
+    }
+
+    .navHeader2 {
+        background: #E99F2D;
+    }
+
+    .navHeader3 {
+        background: #5FB77A;
+    }
+
+    .navHeader4 {
+        background: #47B0BE;
     }
 
     .navBodyContainer {
@@ -668,15 +690,26 @@
     /* =============== */
     /* start of nav section  */
     /* =============== */
-    .navTopBarContainer {
+    .navTopBarGrid {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1 5vw);
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 0.8vw);
     }
 
-    .navTopBarContainer {
-        grid-column: 1 / -1;
-        grid-row: 1 / -1;
+    .navHeader1 {
+        background: #E05547;
+    }
+
+    .navHeader2 {
+        background: #E99F2D;
+    }
+
+    .navHeader3 {
+        background: #5FB77A;
+    }
+
+    .navHeader4 {
+        background: #47B0BE;
     }
 
     .navBodyContainer {
@@ -1011,15 +1044,26 @@
     /* =============== */
     /* start of nav section  */
     /* =============== */
-    .navTopBarContainer {
+    .navTopBarGrid {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1 5vw);
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 0.8vw);
     }
 
-    .navTopBarContainer {
-        grid-column: 1 / -1;
-        grid-row: 1 / -1;
+    .navHeader1 {
+        background: #E05547;
+    }
+
+    .navHeader2 {
+        background: #E99F2D;
+    }
+
+    .navHeader3 {
+        background: #5FB77A;
+    }
+
+    .navHeader4 {
+        background: #47B0BE;
     }
 
     .navBodyContainer {
@@ -1353,15 +1397,26 @@
        /* =============== */
     /* start of nav section  */
     /* =============== */
-    .navTopBarContainer {
+    .navTopBarGrid {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1 5vw);
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 0.8vw);
     }
 
-    .navTopBarContainer {
-        grid-column: 1 / -1;
-        grid-row: 1 / -1;
+    .navHeader1 {
+        background: #E05547;
+    }
+
+    .navHeader2 {
+        background: #E99F2D;
+    }
+
+    .navHeader3 {
+        background: #5FB77A;
+    }
+
+    .navHeader4 {
+        background: #47B0BE;
     }
 
     .navBodyContainer {
@@ -1699,15 +1754,26 @@
      /* =============== */
     /* start of nav section  */
     /* =============== */
-    .navTopBarContainer {
+    .navTopBarGrid {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1 5vw);
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 0.8vw);
     }
 
-    .navTopBarContainer {
-        grid-column: 1 / -1;
-        grid-row: 1 / -1;
+    .navHeader1 {
+        background: #E05547;
+    }
+
+    .navHeader2 {
+        background: #E99F2D;
+    }
+
+    .navHeader3 {
+        background: #5FB77A;
+    }
+
+    .navHeader4 {
+        background: #47B0BE;
     }
 
     .navBodyContainer {
@@ -2040,15 +2106,26 @@
     /* =============== */
     /* start of nav section  */
     /* =============== */
-    .navTopBarContainer {
+    .navTopBarGrid {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1 5vw);
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 0.8vw);
     }
 
-    .navTopBarContainer {
-        grid-column: 1 / -1;
-        grid-row: 1 / -1;
+    .navHeader1 {
+        background: #E05547;
+    }
+
+    .navHeader2 {
+        background: #E99F2D;
+    }
+
+    .navHeader3 {
+        background: #5FB77A;
+    }
+
+    .navHeader4 {
+        background: #47B0BE;
     }
 
     .navBodyContainer {
@@ -2378,15 +2455,26 @@
    /* =============== */
     /* start of nav section  */
     /* =============== */
-    .navTopBarContainer {
+    .navTopBarGrid {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1 5vw);
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 0.8vw);
     }
 
-    .navTopBarContainer {
-        grid-column: 1 / -1;
-        grid-row: 1 / -1;
+    .navHeader1 {
+        background: #E05547;
+    }
+
+    .navHeader2 {
+        background: #E99F2D;
+    }
+
+    .navHeader3 {
+        background: #5FB77A;
+    }
+
+    .navHeader4 {
+        background: #47B0BE;
     }
 
     .navBodyContainer {
@@ -2728,15 +2816,26 @@
     /* =============== */
     /* start of nav section  */
     /* =============== */
-    .navTopBarContainer {
+    .navTopBarGrid {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1 5vw);
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 0.8vw);
     }
 
-    .navTopBarContainer {
-        grid-column: 1 / -1;
-        grid-row: 1 / -1;
+    .navHeader1 {
+        background: #E05547;
+    }
+
+    .navHeader2 {
+        background: #E99F2D;
+    }
+
+    .navHeader3 {
+        background: #5FB77A;
+    }
+
+    .navHeader4 {
+        background: #47B0BE;
     }
 
     .navBodyContainer {
@@ -3078,15 +3177,26 @@
     /* =============== */
     /* start of nav section  */
     /* =============== */
-    .navTopBarContainer {
+    .navTopBarGrid {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1 5vw);
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 0.8vw);
     }
 
-    .navTopBarContainer {
-        grid-column: 1 / -1;
-        grid-row: 1 / -1;
+    .navHeader1 {
+        background: #E05547;
+    }
+
+    .navHeader2 {
+        background: #E99F2D;
+    }
+
+    .navHeader3 {
+        background: #5FB77A;
+    }
+
+    .navHeader4 {
+        background: #47B0BE;
     }
 
     .navBodyContainer {
@@ -3414,15 +3524,26 @@
     /* =============== */
     /* start of nav section  */
     /* =============== */
-    .navTopBarContainer {
+    .navTopBarGrid {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1 5vw);
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 0.8vw);
     }
 
-    .navTopBarContainer {
-        grid-column: 1 / -1;
-        grid-row: 1 / -1;
+    .navHeader1 {
+        background: #E05547;
+    }
+
+    .navHeader2 {
+        background: #E99F2D;
+    }
+
+    .navHeader3 {
+        background: #5FB77A;
+    }
+
+    .navHeader4 {
+        background: #47B0BE;
     }
 
     .navBodyContainer {
@@ -3748,15 +3869,26 @@
     /* =============== */
     /* start of nav section  */
     /* =============== */
-    .navTopBarContainer {
+    .navTopBarGrid {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1 5vw);
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 0.8vw);
     }
 
-    .navTopBarContainer {
-        grid-column: 1 / -1;
-        grid-row: 1 / -1;
+    .navHeader1 {
+        background: #E05547;
+    }
+
+    .navHeader2 {
+        background: #E99F2D;
+    }
+
+    .navHeader3 {
+        background: #5FB77A;
+    }
+
+    .navHeader4 {
+        background: #47B0BE;
     }
 
     .navBodyContainer {
@@ -4082,15 +4214,26 @@
     /* =============== */
     /* start of nav section  */
     /* =============== */
-    .navTopBarContainer {
+    .navTopBarGrid {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1 5vw);
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 0.8vw);
     }
 
-    .navTopBarContainer {
-        grid-column: 1 / -1;
-        grid-row: 1 / -1;
+    .navHeader1 {
+        background: #E05547;
+    }
+
+    .navHeader2 {
+        background: #E99F2D;
+    }
+
+    .navHeader3 {
+        background: #5FB77A;
+    }
+
+    .navHeader4 {
+        background: #47B0BE;
     }
 
     .navBodyContainer {
@@ -4416,16 +4559,28 @@
      /* =============== */
     /* start of nav section  */
     /* =============== */
-    .navTopBarContainer {
+    .navTopBarGrid {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1 5vw);
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 0.8vw);
     }
 
-    .navTopBarContainer {
-        grid-column: 1 / -1;
-        grid-row: 1 / -1;
+    .navHeader1 {
+        background: #E05547;
     }
+
+    .navHeader2 {
+        background: #E99F2D;
+    }
+
+    .navHeader3 {
+        background: #5FB77A;
+    }
+
+    .navHeader4 {
+        background: #47B0BE;
+    }
+
     .navBodyContainer {
         background: #25283B;
         display: grid;
@@ -4752,15 +4907,26 @@
       /* =============== */
     /* start of nav section  */
     /* =============== */
-    .navTopBarContainer {
+    .navTopBarGrid {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1 5vw);
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 0.8vw);
     }
 
-    .navTopBarContainer {
-        grid-column: 1 / -1;
-        grid-row: 1 / -1;
+    .navHeader1 {
+        background: #E05547;
+    }
+
+    .navHeader2 {
+        background: #E99F2D;
+    }
+
+    .navHeader3 {
+        background: #5FB77A;
+    }
+
+    .navHeader4 {
+        background: #47B0BE;
     }
 
     .navBodyContainer {

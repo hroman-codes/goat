@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import './splash.css';
 
 import Cloudsplash from './cloudsplash'; 
-import NavHeader from './navHeader';
 import SplashGetromanLogo from '../splashcomponents/splashGetromanLogo';
 import SplashNavBigMoonLeft from '../splashcomponents/splashNavBigMoonLeft';
 import SplashNavSmallMoonLeft from '../splashcomponents/splashNavSmallMoonLeft';
@@ -53,9 +52,10 @@ const Navsplash = () => {
         return (
             <div>
                 <div className='navTopBarGrid'> 
-                    <div className='navTopBarContainer'>
-                        <NavHeader /> 
-                    </div> 
+                    <div className='navHeader1'></div>
+                    <div className='navHeader2'></div>
+                    <div className='navHeader3'></div>
+                    <div className='navHeader4'></div>
                 </div>
 
                 <div className='navBodyContainer'>
@@ -170,9 +170,10 @@ const Navsplash = () => {
             <div>
 
                 <div className='navTopBarGrid'> 
-                    <div className='navTopBarContainer'>
-                        <NavHeader /> 
-                    </div> 
+                    <div className='navHeader1'></div>
+                    <div className='navHeader2'></div>
+                    <div className='navHeader3'></div>
+                    <div className='navHeader4'></div>
                 </div>
 
                 <div className='navBodyContainer'>
@@ -298,11 +299,12 @@ const Navsplash = () => {
             <div>
 
                 <div className='navTopBarGrid'> 
-                    <div className='navTopBarContainer'>
-                        <NavHeader /> 
-                    </div> 
+                    <div className='navHeader1'></div>
+                    <div className='navHeader2'></div>
+                    <div className='navHeader3'></div>
+                    <div className='navHeader4'></div>
                 </div>
-                
+
                 <div className='navBodyContainer'>
                     <div className='splashNavLeftStars'> <SplashNavLeftStars /> </div>
                     <div className='splashGetromanLogoWithText'> <SplashGetromanLogoWithText /></div>
