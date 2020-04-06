@@ -4555,6 +4555,7 @@
     /* =============== */   
 }
 
+/* working on this one  */
 @media all and (max-width: 397px) and (min-width: 374px) {
      /* =============== */
     /* start of nav section  */
@@ -4801,15 +4802,14 @@
         display: grid;
         background: linear-gradient(180deg, #2C3043 37.35%, #0CA678 62.35%);
         grid-template-columns: repeat(8, 1fr);
-        grid-template-rows: repeat(24, 5vw);
+        grid-template-rows: repeat(25, 5vw);
         grid-gap: 20px;
     }
 
     .MVDSMHeadingContainer {
         grid-column: 1 / -1;
-        grid-row: 1 / 4;
+        grid-row: 3 / 5;
         padding-left: 25px;
-        padding-top: 25px;
     }
 
     .MVDSMHeadingText {
@@ -4825,7 +4825,7 @@
 
     .MVDSMAboutMeContainer {
         grid-column: 1 / 9;
-        grid-row: 7 / 16;
+        grid-row: 8 / 17;
         padding-left: 25px;
     }
 
@@ -4842,7 +4842,7 @@
 
     .MVDSMGraphContainer {
         grid-column: 1 / 9;
-        grid-row: 15 / 22;
+        grid-row: 16 / 23;
     }
 
     .footerStarsContainer {
@@ -4871,7 +4871,7 @@
     .footerContainer {
         background-color: #25283B;
         grid-column: 1 / -1;
-        grid-row: 21 / 25;
+        grid-row: 22 / 26;
         padding-top: 5px;
     }
 
