@@ -10,6 +10,13 @@
     /* =============== */
     .navTopBarContainer {
         display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1 5vw);
+    }
+
+    .navTopBarContainer {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
     }
 
     .navBodyContainer {
@@ -332,6 +339,13 @@
     /* =============== */
     .navTopBarContainer {
         display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1 5vw);
+    }
+
+    .navTopBarContainer {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
     }
 
     .navBodyContainer {
@@ -656,6 +670,13 @@
     /* =============== */
     .navTopBarContainer {
         display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1 5vw);
+    }
+
+    .navTopBarContainer {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
     }
 
     .navBodyContainer {
@@ -992,6 +1013,13 @@
     /* =============== */
     .navTopBarContainer {
         display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1 5vw);
+    }
+
+    .navTopBarContainer {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
     }
 
     .navBodyContainer {
@@ -1327,6 +1355,13 @@
     /* =============== */
     .navTopBarContainer {
         display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1 5vw);
+    }
+
+    .navTopBarContainer {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
     }
 
     .navBodyContainer {
@@ -1666,6 +1701,13 @@
     /* =============== */
     .navTopBarContainer {
         display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1 5vw);
+    }
+
+    .navTopBarContainer {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
     }
 
     .navBodyContainer {
@@ -2000,6 +2042,13 @@
     /* =============== */
     .navTopBarContainer {
         display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1 5vw);
+    }
+
+    .navTopBarContainer {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
     }
 
     .navBodyContainer {
@@ -2331,6 +2380,13 @@
     /* =============== */
     .navTopBarContainer {
         display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1 5vw);
+    }
+
+    .navTopBarContainer {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
     }
 
     .navBodyContainer {
@@ -2674,6 +2730,13 @@
     /* =============== */
     .navTopBarContainer {
         display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1 5vw);
+    }
+
+    .navTopBarContainer {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
     }
 
     .navBodyContainer {
@@ -3017,6 +3080,13 @@
     /* =============== */
     .navTopBarContainer {
         display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1 5vw);
+    }
+
+    .navTopBarContainer {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
     }
 
     .navBodyContainer {
@@ -3346,6 +3416,13 @@
     /* =============== */
     .navTopBarContainer {
         display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1 5vw);
+    }
+
+    .navTopBarContainer {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
     }
 
     .navBodyContainer {
@@ -3673,6 +3750,13 @@
     /* =============== */
     .navTopBarContainer {
         display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1 5vw);
+    }
+
+    .navTopBarContainer {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
     }
 
     .navBodyContainer {
@@ -4000,6 +4084,13 @@
     /* =============== */
     .navTopBarContainer {
         display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1 5vw);
+    }
+
+    .navTopBarContainer {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
     }
 
     .navBodyContainer {
@@ -4327,8 +4418,14 @@
     /* =============== */
     .navTopBarContainer {
         display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1 5vw);
     }
 
+    .navTopBarContainer {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
+    }
     .navBodyContainer {
         background: #25283B;
         display: grid;
@@ -4657,6 +4754,13 @@
     /* =============== */
     .navTopBarContainer {
         display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1 5vw);
+    }
+
+    .navTopBarContainer {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
     }
 
     .navBodyContainer {

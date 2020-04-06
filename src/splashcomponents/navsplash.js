@@ -52,7 +52,12 @@ const Navsplash = () => {
     if (isDesktopViewAbove967) {
         return (
             <div>
-                <div className='navTopBarContainer'> <NavHeader /> </div>
+                <div className='navTopBarGrid'> 
+                    <div className='navTopBarContainer'>
+                        <NavHeader /> 
+                    </div> 
+                </div>
+
                 <div className='navBodyContainer'>
                     <div className='splashNavBigMoonLeft'> <SplashNavBigMoonLeft /> </div>
                     <div className='splashNavSmallMoonLeft'> <SplashNavSmallMoonLeft /> </div>
@@ -163,7 +168,13 @@ const Navsplash = () => {
     } else if (isDeskTopViewAbove599) {
         return (
             <div>
-                <div className='navTopBarContainer'> <NavHeader /> </div>
+
+                <div className='navTopBarGrid'> 
+                    <div className='navTopBarContainer'>
+                        <NavHeader /> 
+                    </div> 
+                </div>
+
                 <div className='navBodyContainer'>
                     <div className='splashNavBigMoonLeft'> <SplashNavBigMoonLeft /> </div>
                     <div className='splashNavSmallMoonLeft'> <SplashNavSmallMoonLeft /> </div>
@@ -285,7 +296,13 @@ const Navsplash = () => {
     } else {
         return (
             <div>
-                <div className='navTopBarContainer'> <NavHeader /> </div>
+
+                <div className='navTopBarGrid'> 
+                    <div className='navTopBarContainer'>
+                        <NavHeader /> 
+                    </div> 
+                </div>
+                
                 <div className='navBodyContainer'>
                     <div className='splashNavLeftStars'> <SplashNavLeftStars /> </div>
                     <div className='splashGetromanLogoWithText'> <SplashGetromanLogoWithText /></div>
