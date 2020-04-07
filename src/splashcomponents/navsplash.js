@@ -398,21 +398,9 @@ const Navsplash = () => {
                         <SplashFooterMVDSM />
                     </div>
 
-                    {/* <div className='footerStarsContainer'>
-                        <SplashFooterStars />
-                    </div> */}
-
-                    {/* <div className='footerRightSpaceship'>
-                        <SplashGetromanSpaceShip />
-                    </div> */}
-
                     <div className='footerContainer'>
                         <p>Follow the dev process of Getroman.dev.</p>
                     </div>  
-
-                    {/* <div className='footerAlienObjectsContainer'>
-                        <FooterAlienObjects />
-                    </div> */}
 
                 </div>
 
