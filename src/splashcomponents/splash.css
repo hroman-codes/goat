@@ -3,7 +3,6 @@
 }
 
 /* GENERAL MEDIA QUERIES */
-/* this breaks @ min width of 1913px */
 @media all and (min-width: 1913px) {
     /* =============== */
     /* start of nav section  */
@@ -272,7 +271,7 @@
     .footerTextContainer {
         display: flex;
         justify-content: center;
-        grid-column: 4 / 10;
+        grid-column: 3 / 11;
         grid-row: 3 / 7;
         padding-top: 20px;
     }
@@ -282,18 +281,17 @@
         font-family: IBM Plex Mono;
         font-style: normal;
         font-weight: 600;
-        font-size: 25px;
-        line-height: 57px;
+        font-size: 35px;
+        line-height: 60px;
         text-align: center;
         margin: 0px;
     }
 
     .MVDSMContainer {
         grid-column: 3 / 11;
-        grid-row: 6 / 10;
+        grid-row: 7 / 11;
         display: flex;
         justify-content: center;
-        padding-top: 100px;
     }
 
     .MVDSMContainer svg {
@@ -542,11 +540,12 @@
     }
 
     .splashSocialMediaIcons {
-        grid-column: 8 / 12;
+        grid-column: 7 / -1;
         grid-row: 4 / 5;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        padding-top: 50px;
         align-items: flex-start;
         height: 100%;
     }
@@ -613,7 +612,7 @@
     .footerTextContainer {
         display: flex;
         justify-content: center;
-        grid-column: 4 / 10;
+        grid-column: 3 / 11;
         grid-row: 3 / 7;
         padding-top: 50px;
     }
@@ -623,8 +622,8 @@
         font-family: IBM Plex Mono;
         font-style: normal;
         font-weight: 600;
-        font-size: 25px;
-        line-height: 57px;
+        font-size: 35px;
+        line-height: 60px;
         text-align: center;
         margin: 0px;
     }
@@ -643,8 +642,6 @@
     }
 
     .splashFooterStars {
-        width: 1590px;
-        height: 269px;
         grid-column: 1 / -1;
         grid-row: 10 / -1;
         padding-left: 50px;
@@ -758,9 +755,7 @@
     }
 
     .splashNavRightStars {
-        width: 513px;
-        height: 133px;
-        grid-column: 9 / 12;
+        grid-column: 8 / 12;
         grid-row: 4 / 10;
     }
 
@@ -896,7 +891,8 @@
     }
 
     .splashSocialMediaIcons {
-        grid-column: 8 / 12;
+        margin-top: 50px;
+        grid-column: 7 / 13;
         grid-row: 4 / 5;
         display: flex;
         flex-direction: row;
@@ -967,7 +963,7 @@
     .footerTextContainer {
         display: flex;
         justify-content: center;
-        grid-column: 4 / 10;
+        grid-column: 3 / 11;
         grid-row: 3 / 7;
         padding-top: 50px;
     }
@@ -977,8 +973,8 @@
         font-family: IBM Plex Mono;
         font-style: normal;
         font-weight: 600;
-        font-size: 25px;
-        line-height: 57px;
+        font-size: 30px;
+        line-height: 67px;
         text-align: center;
         margin: 0px;
     }
@@ -997,8 +993,6 @@
     }
 
     .splashFooterStars {
-        width: 1590px;
-        height: 269px;
         grid-column: 1 / -1;
         grid-row: 10 / -1;
         padding-left: 50px;
@@ -1114,7 +1108,7 @@
     .splashNavRightStars {
         width: 513px;
         height: 133px;
-        grid-column: 9 / 12;
+        grid-column: 8 / 10;
         grid-row: 4 / 10;
     }
 
@@ -1251,7 +1245,7 @@
     }
 
     .splashSocialMediaIcons {
-        grid-column: 8 / 12;
+        grid-column: 7 / 13;
         grid-row: 4 / 5;
         display: flex;
         flex-direction: row;
