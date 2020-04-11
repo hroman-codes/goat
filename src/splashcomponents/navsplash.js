@@ -18,7 +18,6 @@ import SplashWavyFooter from '../splashcomponents/splashWavyFooter';
 import SplashGetromanSpaceShip from '../splashcomponents/splashGetromanSpaceShip';
 import SplashFooterStars from '../splashcomponents/splashFooterStars';
 import SplashFooterButton from '../splashcomponents/splashFooterButton';
-import FooterAlienObjects from '../splashcomponents/footerAlienObjects';
 
 const Navsplash = () => {
 
