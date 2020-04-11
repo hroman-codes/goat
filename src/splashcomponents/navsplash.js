@@ -87,28 +87,28 @@ const Navsplash = () => {
 
                     <div className='getromanIntroText'> 
                         <p> Developer | Technical Instructor | AWS Certified Cloud Practitioner </p>
-                        <p> <i class="fas fa-envelope"></i> getroman.dev@gmail.com </p>
+                        <p> <i className="fas fa-envelope"></i> getroman.dev@gmail.com </p>
                     </div>
 
                     <div className='splashSocialMediaIcons'>
                         <a href='https://www.linkedin.com/in/heribertoroman/' target='_blank'>
-                            <i class="fab fa-linkedin-in fa-7x"></i>
+                            <i className="fab fa-linkedin-in fa-7x"></i>
                         </a>
 
                         <a href='https://github.com/getromandev' target='_blank'>
-                            <i class="fab fa-github fa-7x"></i>
+                            <i className="fab fa-github fa-7x"></i>
                         </a>
 
                         <a href='https://dribbble.com/getroman' target='_blank'>
-                            <i class="fab fa-dribbble fa-7x"></i>
+                            <i className="fab fa-dribbble fa-7x"></i>
                         </a>
 
                         <a href='https://medium.com/@getroman.dev' target='_blank'>
-                            <i class="fab fa-medium-m fa-7x"></i>
+                            <i className="fab fa-medium-m fa-7x"></i>
                         </a>
                         
                         <a href='https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-12-02&ci=AWS01186088' target='_blank'>
-                            <i class="fab fa-aws fa-7x"></i>
+                            <i className="fab fa-aws fa-7x"></i>
                         </a>
                     </div>
 

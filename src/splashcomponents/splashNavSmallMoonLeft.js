@@ -6,10 +6,10 @@ const SplashNavSmallMoonLeft = () => {
             <g filter="url(#filter0_d)">
             <circle cx="69" cy="65" r="50" fill="#25283B"/>
             </g>
-            <path d="M20.5 77.0001C-7.62939e-06 85.5001 1.83184 102.026 18.332 102.026C34.8322 102.026 131.832 63.0262 136.832 50.0263C141.832 37.0264 127 25.5 109.832 36.0263" stroke="#E05547" stroke-width="5"/>
+            <path d="M20.5 77.0001C-7.62939e-06 85.5001 1.83184 102.026 18.332 102.026C34.8322 102.026 131.832 63.0262 136.832 50.0263C141.832 37.0264 127 25.5 109.832 36.0263" stroke="#E05547" strokeWidth="5"/>
             <defs>
-            <filter id="filter0_d" x="0" y="0" width="138" height="138" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <filter id="filter0_d" x="0" y="0" width="138" height="138" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+            <feFlood floodOpacity="0" result="BackgroundImageFix"/>
             <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
             <feOffset dy="4"/>
             <feGaussianBlur stdDeviation="9.5"/>
