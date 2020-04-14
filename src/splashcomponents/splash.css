@@ -5100,13 +5100,13 @@
         display: grid;
         background: linear-gradient(180deg, #2C3043 63.35%, #0CA678 90.35%);
         grid-template-columns: repeat(8, 1fr);
-        grid-template-rows: repeat(25, 5vw);
+        grid-template-rows: repeat(28, 5vw);
         grid-gap: 20px;
     }
 
     .MVDSMHeadingContainer {
         grid-column: 1 / -1;
-        grid-row: 3 / 5;
+        grid-row: 2 / 4;
         padding-left: 25px;
     }
 
@@ -5122,9 +5122,8 @@
     }  
 
     .MVDSMAboutMeContainer {
-        grid-column: 1 / 9;
-        grid-row: 8 / 17;
-        padding-left: 25px;
+        grid-column: 2 / 8;
+        grid-row: 10 / 19;
     }
 
     .MVDSMAboutMeText {
@@ -5140,13 +5139,13 @@
 
     .MVDSMGraphContainer {
         grid-column: 1 / 9;
-        grid-row: 16 / 23;
+        grid-row: 19 / 26;
     }
 
     .footerContainer {
         background-color: #25283B;
         grid-column: 1 / -1;
-        grid-row: 22 / 26;
+        grid-row: 25 / 29;
         padding-top: 5px;
     }
 
