@@ -10,8 +10,8 @@ import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
     <BrowserRouter>
-        {/* <App /> */}
-        <Splashpage />
+        <App />
+        {/* <Splashpage /> */}
     </BrowserRouter>
 , document.getElementById('root'));
 
