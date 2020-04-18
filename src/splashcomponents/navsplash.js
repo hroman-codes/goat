@@ -91,23 +91,23 @@ const Navsplash = () => {
                     </div>
 
                     <div className='splashSocialMediaIcons'>
-                        <a href='https://www.linkedin.com/in/heribertoroman/' target='_blank'>
+                        <a href='https://www.linkedin.com/in/heribertoroman/' target='_blank' rel="noopener noreferrer">
                             <i className="fab fa-linkedin-in fa-7x"></i>
                         </a>
 
-                        <a href='https://github.com/getromandev' target='_blank'>
+                        <a href='https://github.com/getromandev' target='_blank' rel="noopener noreferrer">
                             <i className="fab fa-github fa-7x"></i>
                         </a>
 
-                        <a href='https://dribbble.com/getroman' target='_blank'>
+                        <a href='https://dribbble.com/getroman' target='_blank' rel="noopener noreferrer">
                             <i className="fab fa-dribbble fa-7x"></i>
                         </a>
 
-                        <a href='https://medium.com/@getroman.dev' target='_blank'>
+                        <a href='https://medium.com/@getroman.dev' target='_blank' rel="noopener noreferrer">
                             <i className="fab fa-medium-m fa-7x"></i>
                         </a>
                         
-                        <a href='https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-12-02&ci=AWS01186088' target='_blank'>
+                        <a href='https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-12-02&ci=AWS01186088' target='_blank' rel="noopener noreferrer">
                             <i className="fab fa-aws fa-7x"></i>
                         </a>
                     </div>
@@ -212,23 +212,23 @@ const Navsplash = () => {
                     </div>
 
                     <div className='splashSocialMediaIconsContainer splashSocialMediaIcons'>
-                        <a href='https://www.linkedin.com/in/heribertoroman/' target='_blank'>
+                        <a href='https://www.linkedin.com/in/heribertoroman/' target='_blank' rel="noopener noreferrer">
                             <i class="fab fa-linkedin-in fa-7x"></i>
                         </a>
 
-                        <a href='https://github.com/getromandev' target='_blank'>
+                        <a href='https://github.com/getromandev' target='_blank' rel="noopener noreferrer">
                             <i class="fab fa-github fa-7x"></i>
                         </a>
 
-                        <a href='https://dribbble.com/getroman' target='_blank'>
+                        <a href='https://dribbble.com/getroman' target='_blank' rel="noopener noreferrer">
                             <i class="fab fa-dribbble fa-7x"></i>
                         </a>
 
-                        <a href='https://medium.com/@getroman.dev' target='_blank'>
+                        <a href='https://medium.com/@getroman.dev' target='_blank' rel="noopener noreferrer">
                             <i class="fab fa-medium-m fa-7x"></i>
                         </a>
                         
-                        <a href='https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-12-02&ci=AWS01186088' target='_blank'>
+                        <a href='https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-12-02&ci=AWS01186088' target='_blank' rel="noopener noreferrer">
                             <i class="fab fa-aws fa-7x"></i>
                         </a>
                     </div>
@@ -337,31 +337,31 @@ const Navsplash = () => {
                 <div className='getromanSocialMediaGrid'>
 
                     <div className='linkedInContainer'>
-                        <a href='https://www.linkedin.com/in/heribertoroman/' target='_blank' className='splashSocialMediaIcons'>
+                        <a href='https://www.linkedin.com/in/heribertoroman/' target='_blank' className='splashSocialMediaIcons' rel="noopener noreferrer">
                             <i class="fab fa-linkedin-in fa-7x"></i>
                         </a>
                     </div>
 
                     <div className='mediumContainer'>
-                        <a href='https://medium.com/@getroman.dev' target='_blank' className='splashSocialMediaIcons'>
+                        <a href='https://medium.com/@getroman.dev' target='_blank' className='splashSocialMediaIcons' rel="noopener noreferrer">
                             <i class="fab fa-medium-m fa-7x"></i>
                         </a>
                     </div>
 
                     <div className='githubContainer'>
-                        <a href='https://github.com/getromandev' target='_blank' className='splashSocialMediaIcons'>
+                        <a href='https://github.com/getromandev' target='_blank' className='splashSocialMediaIcons' rel="noopener noreferrer">
                             <i class="fab fa-github fa-7x"></i>
                         </a>
                     </div>
 
                     <div className='dribbleContainer'>
-                        <a href='https://dribbble.com/getroman' target='_blank' className='splashSocialMediaIcons'>
+                        <a href='https://dribbble.com/getroman' target='_blank' className='splashSocialMediaIcons' rel="noopener noreferrer">
                             <i class="fab fa-dribbble fa-7x"></i>
                         </a>
                     </div>
 
                     <div className='awsContainer'>
-                        <a href='https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-12-02&ci=AWS01186088' target='_blank' className='splashSocialMediaIcons'>
+                        <a href='https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-12-02&ci=AWS01186088' target='_blank' className='splashSocialMediaIcons' rel="noopener noreferrer">
                             <i class="fab fa-aws fa-7x"></i>
                         </a>
                     </div>
