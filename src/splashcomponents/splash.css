@@ -4420,13 +4420,13 @@
     .coreValuesShotPhotoContainer {
         display: grid;
         grid-template-columns: repeat(8, 1fr);
-        grid-template-rows: repeat(11, 5vw);
+        grid-template-rows: repeat(9, 5vw);
         grid-gap: 10px;
     }
 
     .coreValuesGetromanPictureContainer {
         grid-column: 1 / -1;
-        grid-row: 1 / 12;
+        grid-row: 1 / 10;
         margin: 0;
     }
 
@@ -4745,13 +4745,13 @@
     .coreValuesShotPhotoContainer {
         display: grid;
         grid-template-columns: repeat(8, 1fr);
-        grid-template-rows: repeat(11, 5vw);
+        grid-template-rows: repeat(8, 5vw);
         grid-gap: 10px;
     }
 
     .coreValuesGetromanPictureContainer {
         grid-column: 1 / -1;
-        grid-row: 1 / 12;
+        grid-row: 1 / 9;
         margin: 0;
     }
 
@@ -5070,13 +5070,13 @@
     .coreValuesShotPhotoContainer {
         display: grid;
         grid-template-columns: repeat(8, 1fr);
-        grid-template-rows: repeat(11, 5vw);
+        grid-template-rows: repeat(8, 5vw);
         grid-gap: 10px;
     }
 
     .coreValuesGetromanPictureContainer {
         grid-column: 1 / -1;
-        grid-row: 1 / 12;
+        grid-row: 1 / 9;
         margin: 0;
     }
 
@@ -5394,13 +5394,13 @@
     .coreValuesShotPhotoContainer {
         display: grid;
         grid-template-columns: repeat(8, 1fr);
-        grid-template-rows: repeat(11, 5vw);
+        grid-template-rows: repeat(8, 5vw);
         grid-gap: 10px;
     }
 
     .coreValuesGetromanPictureContainer {
         grid-column: 1 / -1;
-        grid-row: 1 / 12;
+        grid-row: 1 / 9;
         margin: 0;
     }
 
@@ -5424,7 +5424,7 @@
         display: grid;
         background: linear-gradient(180deg, #2C3043 63.35%, #0CA678 90.35%);
         grid-template-columns: repeat(8, 1fr);
-        grid-template-rows: repeat(28, 5vw);
+        grid-template-rows: repeat(30, 5vw);
         grid-gap: 20px;
     }
 
@@ -5446,8 +5446,8 @@
     }  
 
     .MVDSMAboutMeContainer {
-        grid-column: 1 / 9;
-        grid-row: 11 / 20;
+        grid-column: 1 / 8;
+        grid-row: 12 / 22;
         padding-left: 25px;
     }
 
@@ -5464,13 +5464,13 @@
 
     .MVDSMGraphContainer {
         grid-column: 1 / 9;
-        grid-row: 19 / 26;
+        grid-row: 21 / 28;
     }
 
     .footerContainer {
         background-color: #25283B;
         grid-column: 1 / -1;
-        grid-row: 25 / 29;
+        grid-row: 27 / 31;
         padding-top: 5px;
     }
 
