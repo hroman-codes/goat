@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import ReactGA from 'react-ga';
 
 const Button = styled.button`
     border: 2px solid #25283B;
@@ -202,9 +203,18 @@ const Anchor = styled.a `
 `
 
 const SplashFooterButton = () => {
+
+    const ClickHandler = () => {
+        ReactGA.event({
+            category: 'Button',
+            action: 'Clicked button to email Getroman',
+            label: 'Splash Footer Button Component'
+        })
+    }
+
     return (
         <Anchor href="mailto:getroman.dev@gmail.com?subject=Heriberto we would like to hire you, let's talk." target="_blank">
-            <Button>MESSAGE ME</Button>
+            <Button onClick={ClickHandler} >MESSAGE ME</Button>
         </Anchor>
     )
 }

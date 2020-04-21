@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import ReactGA from 'react-ga';
 
 const Button = styled.button`
     border: 2px solid #C4C4C4;
@@ -93,9 +94,19 @@ const Anchor = styled.a `
 `
 
 const SplashButton = () => {
+
+
+    const ClickHandler = () => {
+        ReactGA.event({
+            category: 'Button',
+            action: 'Clicked button linking to Trello',
+            label: 'SplashButton Component'
+        })
+    }
+    
     return (
         <Anchor href="https://trello.com/b/yDUnv1W9" target="_blank">
-            <Button>LEARN MORE</Button>
+            <Button onClick={ClickHandler}> LEARN MORE</Button>
         </Anchor>
     )
 }
