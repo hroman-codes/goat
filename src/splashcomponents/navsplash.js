@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './splash.css';
+import ReactGA from 'react-ga';
 
 import Cloudsplash from './cloudsplash'; 
 import SplashGetromanLogo from '../splashcomponents/splashGetromanLogo';
@@ -46,6 +47,14 @@ const Navsplash = () => {
         window.addEventListener('resize', updateMediaViewAbove599);
         return () => window.removeEventListener('resize', updateMediaViewAbove599);
     })
+
+    // google analytics hook
+    useEffect(() => {
+        ReactGA.initialize('UA-164057002-1')
+
+        // to report page view
+        ReactGA.pageview('/underConstructionPage');
+    }, []);
 
     if (isDesktopViewAbove967) {
         return (
