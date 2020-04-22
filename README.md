@@ -1,3 +1,17 @@
-Portfolio Website of Heriberto Roman
+![Getroman Logo](/splashcomponents/images/gitHub_Readme_Logo.png)
 
-Updates coming soon
+## Project
+
+
+## Live Link
+
+
+## Description
+
+
+## Tech Stack
+
+
+## Done
+- [] TBD
+
