@@ -100,25 +100,45 @@ const Navsplash = () => {
                     </div>
 
                     <div className='splashSocialMediaIcons'>
-                        <a href='https://www.linkedin.com/in/heribertoroman/' target='_blank' rel="noopener noreferrer">
-                            <i className="fab fa-linkedin-in fa-7x"></i>
-                        </a>
+                        <ReactGA.OutboundLink
+                            eventLabel='Linkedin'
+                            to='https://www.linkedin.com/in/heribertoroman/'
+                            target='_blank'
+                            rel="noopener noreferrer">
+                                <i className="fab fa-linkedin-in fa-7x"></i>
+                        </ReactGA.OutboundLink>
 
-                        <a href='https://github.com/getromandev' target='_blank' rel="noopener noreferrer">
-                            <i className="fab fa-github fa-7x"></i>
-                        </a>
+                        <ReactGA.OutboundLink
+                            eventLabel='GitHub'
+                            to='https://github.com/getromandev'
+                            target='_blank'
+                            rel='noopener noreferrer'>
+                                <i className="fab fa-github fa-7x"></i>
+                        </ReactGA.OutboundLink>
 
-                        <a href='https://dribbble.com/getroman' target='_blank' rel="noopener noreferrer">
-                            <i className="fab fa-dribbble fa-7x"></i>
-                        </a>
+                        <ReactGA.OutboundLink
+                            eventLabel='Dribble'
+                            to='https://dribbble.com/getroman'
+                            target='_blank'
+                            rel='noopener noreferrer'>
+                                <i className="fab fa-dribbble fa-7x"></i>
+                        </ReactGA.OutboundLink>
 
-                        <a href='https://medium.com/@getroman.dev' target='_blank' rel="noopener noreferrer">
-                            <i className="fab fa-medium-m fa-7x"></i>
-                        </a>
-                        
-                        <a href='https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-12-02&ci=AWS01186088' target='_blank' rel="noopener noreferrer">
-                            <i className="fab fa-aws fa-7x"></i>
-                        </a>
+                        <ReactGA.OutboundLink
+                            eventLabel='Medium'
+                            to='https://medium.com/@getroman.dev'
+                            target='_blank'
+                            rel='noopener noreferrer'>
+                                <i className="fab fa-medium-m fa-7x"></i>
+                        </ReactGA.OutboundLink>
+
+                        <ReactGA.OutboundLink
+                            eventLabel='AWS'
+                            to='https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-12-02&ci=AWS01186088'
+                            target='_blank'
+                            rel='noopener noreferrer'>
+                                <i className="fab fa-aws fa-7x"></i>
+                        </ReactGA.OutboundLink>
                     </div>
 
                     <div className='bottomMainContainer'></div>
@@ -221,25 +241,45 @@ const Navsplash = () => {
                     </div>
 
                     <div className='splashSocialMediaIconsContainer splashSocialMediaIcons'>
-                        <a href='https://www.linkedin.com/in/heribertoroman/' target='_blank' rel="noopener noreferrer">
-                            <i class="fab fa-linkedin-in fa-7x"></i>
-                        </a>
+                        <ReactGA.OutboundLink
+                            eventLabel='Linkedin'
+                            to='https://www.linkedin.com/in/heribertoroman/'
+                            target='_blank'
+                            rel="noopener noreferrer">
+                                <i className="fab fa-linkedin-in fa-7x"></i>
+                        </ReactGA.OutboundLink>
 
-                        <a href='https://github.com/getromandev' target='_blank' rel="noopener noreferrer">
-                            <i class="fab fa-github fa-7x"></i>
-                        </a>
+                        <ReactGA.OutboundLink
+                            eventLabel='GitHub'
+                            to='https://github.com/getromandev'
+                            target='_blank'
+                            rel='noopener noreferrer'>
+                                <i className="fab fa-github fa-7x"></i>
+                        </ReactGA.OutboundLink>
 
-                        <a href='https://dribbble.com/getroman' target='_blank' rel="noopener noreferrer">
-                            <i class="fab fa-dribbble fa-7x"></i>
-                        </a>
+                        <ReactGA.OutboundLink
+                            eventLabel='Dribble'
+                            to='https://dribbble.com/getroman'
+                            target='_blank'
+                            rel='noopener noreferrer'>
+                                <i className="fab fa-dribbble fa-7x"></i>
+                        </ReactGA.OutboundLink>
 
-                        <a href='https://medium.com/@getroman.dev' target='_blank' rel="noopener noreferrer">
-                            <i class="fab fa-medium-m fa-7x"></i>
-                        </a>
-                        
-                        <a href='https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-12-02&ci=AWS01186088' target='_blank' rel="noopener noreferrer">
-                            <i class="fab fa-aws fa-7x"></i>
-                        </a>
+                        <ReactGA.OutboundLink
+                            eventLabel='Medium'
+                            to='https://medium.com/@getroman.dev'
+                            target='_blank'
+                            rel='noopener noreferrer'>
+                                <i className="fab fa-medium-m fa-7x"></i>
+                        </ReactGA.OutboundLink>
+
+                        <ReactGA.OutboundLink
+                            eventLabel='AWS'
+                            to='https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-12-02&ci=AWS01186088'
+                            target='_blank'
+                            rel='noopener noreferrer'>
+                                <i className="fab fa-aws fa-7x"></i>
+                        </ReactGA.OutboundLink>
                     </div>
                 </div>
 
@@ -344,35 +384,69 @@ const Navsplash = () => {
                 </div>
 
                 <div className='getromanSocialMediaGrid'>
-
                     <div className='linkedInContainer'>
-                        <a href='https://www.linkedin.com/in/heribertoroman/' target='_blank' className='splashSocialMediaIcons' rel="noopener noreferrer">
+                        {/* <a href='https://www.linkedin.com/in/heribertoroman/' target='_blank' className='splashSocialMediaIcons' rel="noopener noreferrer">
                             <i class="fab fa-linkedin-in fa-7x"></i>
-                        </a>
+                        </a> */}
+                        <ReactGA.OutboundLink
+                            eventLabel='Linkedin'
+                            to='https://www.linkedin.com/in/heribertoroman/'
+                            target='_blank'
+                            rel="noopener noreferrer">
+                                <i className="fab fa-linkedin-in fa-7x"></i>
+                        </ReactGA.OutboundLink>
                     </div>
 
                     <div className='mediumContainer'>
-                        <a href='https://medium.com/@getroman.dev' target='_blank' className='splashSocialMediaIcons' rel="noopener noreferrer">
+                        {/* <a href='https://medium.com/@getroman.dev' target='_blank' className='splashSocialMediaIcons' rel="noopener noreferrer">
                             <i class="fab fa-medium-m fa-7x"></i>
-                        </a>
+                        </a> */}
+                        <ReactGA.OutboundLink
+                            eventLabel='Medium'
+                            to='https://medium.com/@getroman.dev'
+                            target='_blank'
+                            rel='noopener noreferrer'>
+                                <i className="fab fa-medium-m fa-7x"></i>
+                        </ReactGA.OutboundLink>
                     </div>
 
                     <div className='githubContainer'>
-                        <a href='https://github.com/getromandev' target='_blank' className='splashSocialMediaIcons' rel="noopener noreferrer">
+                        {/* <a href='https://github.com/getromandev' target='_blank' className='splashSocialMediaIcons' rel="noopener noreferrer">
                             <i class="fab fa-github fa-7x"></i>
-                        </a>
+                        </a> */}
+                        <ReactGA.OutboundLink
+                            eventLabel='GitHub'
+                            to='https://github.com/getromandev'
+                            target='_blank'
+                            rel='noopener noreferrer'>
+                                <i className="fab fa-github fa-7x"></i>
+                        </ReactGA.OutboundLink>
                     </div>
 
                     <div className='dribbleContainer'>
-                        <a href='https://dribbble.com/getroman' target='_blank' className='splashSocialMediaIcons' rel="noopener noreferrer">
+                        {/* <a href='https://dribbble.com/getroman' target='_blank' className='splashSocialMediaIcons' rel="noopener noreferrer">
                             <i class="fab fa-dribbble fa-7x"></i>
-                        </a>
+                        </a> */}
+                        <ReactGA.OutboundLink
+                            eventLabel='Dribble'
+                            to='https://dribbble.com/getroman'
+                            target='_blank'
+                            rel='noopener noreferrer'>
+                                <i className="fab fa-dribbble fa-7x"></i>
+                        </ReactGA.OutboundLink>
                     </div>
 
                     <div className='awsContainer'>
-                        <a href='https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-12-02&ci=AWS01186088' target='_blank' className='splashSocialMediaIcons' rel="noopener noreferrer">
+                        {/* <a href='https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-12-02&ci=AWS01186088' target='_blank' className='splashSocialMediaIcons' rel="noopener noreferrer">
                             <i class="fab fa-aws fa-7x"></i>
-                        </a>
+                        </a> */}
+                        <ReactGA.OutboundLink
+                            eventLabel='AWS'
+                            to='https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-12-02&ci=AWS01186088'
+                            target='_blank'
+                            rel='noopener noreferrer'>
+                                <i className="fab fa-aws fa-7x"></i>
+                        </ReactGA.OutboundLink>
                     </div>
 
                 </div>
