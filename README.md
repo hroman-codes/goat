@@ -1,4 +1,4 @@
-![Getroman Logo](src/splashcomponents/images/gitHub_Readme_Logo.png)
+![Getroman Logo](src/splashcomponents/images/gitHubReadme_Logo.png)
 
 ## Project
 
