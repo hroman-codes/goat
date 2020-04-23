@@ -3312,6 +3312,14 @@
         grid-gap: 10px;
     }
 
+    .linkedInContainer a, 
+    .mediumContainer a, 
+    .githubContainer a, 
+    .dribbleContainer a,
+    .awsContainer a {
+        color: #25283b;
+    }
+
     .linkedInContainer {
         align-items: center;
         background-color: #C4C4C4;
@@ -3370,10 +3378,6 @@
         justify-content: center;
         border: 0.5px solid rgba(37, 40, 59, 0.5);
         box-sizing: border-box;
-    }
-
-    .splashSocialMediaIcons {
-        color: #25283B;
     }
 
     .fa-linkedin-in, .fa-github, .fa-dribbble, .fa-medium-m, .fa-aws {
@@ -3659,6 +3663,14 @@
         grid-gap: 10px;
     }
 
+    .linkedInContainer a, 
+    .mediumContainer a, 
+    .githubContainer a, 
+    .dribbleContainer a,
+    .awsContainer a {
+        color: #25283b;
+    }
+
     .linkedInContainer {
         align-items: center;
         background-color: #C4C4C4;
@@ -3717,10 +3729,6 @@
         justify-content: center;
         border: 0.5px solid rgba(37, 40, 59, 0.5);
         box-sizing: border-box;
-    }
-
-    .splashSocialMediaIcons {
-        color: #25283B;
     }
 
     .fa-linkedin-in, .fa-github, .fa-dribbble, .fa-medium-m, .fa-aws {
@@ -4004,6 +4012,14 @@
         grid-gap: 10px;
     }
 
+    .linkedInContainer a, 
+    .mediumContainer a, 
+    .githubContainer a, 
+    .dribbleContainer a,
+    .awsContainer a {
+        color: #25283b;
+    }
+
     .linkedInContainer {
         align-items: center;
         background-color: #C4C4C4;
@@ -4062,10 +4078,6 @@
         justify-content: center;
         border: 0.5px solid rgba(37, 40, 59, 0.5);
         box-sizing: border-box;
-    }
-
-    .splashSocialMediaIcons {
-        color: #25283B;
     }
 
     .fa-linkedin-in, .fa-github, .fa-dribbble, .fa-medium-m, .fa-aws {
@@ -4203,7 +4215,7 @@
     /* end of footer section  */
     /* =============== */   
 }
-/* fix below  */
+
 @media all and (max-width: 414px) and (min-width: 398px) {
     /* =============== */
     /* start of nav section  */
