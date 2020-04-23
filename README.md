@@ -8,10 +8,9 @@ Link: www.getroman.dev
 
 ## Process
 - Agile Software Development
-    - [x] User Personas
-    - [x] Product Backlog
-    - [x] Sprint Backlog
-
+    - [x] User Personas https://bit.ly/getromanDevUserPersonas
+    - [x] Product Backlog https://bit.ly/getromanDevProductBacklog
+    - [x] Sprint Backlog https://bit.ly/getromanTrelloScrumBanBoard
 
 - Design Research & Development
     - [x] something
@@ -19,7 +18,7 @@ Link: www.getroman.dev
     - [x] something
 
 ## Tech Stack
-- Trello
+- Trello 
 - React
 - Jest.io for unit testing
     - PUT CODE HERE FOR RENDEr COMPONENT
@@ -32,8 +31,6 @@ Link: www.getroman.dev
 - Figma
     - Getroman Logo Design [Link]
     - Getroman Web Design [Link]
-
-## Tools 
 
 ## Done
 - [x] create under construction page
