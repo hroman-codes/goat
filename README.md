@@ -4,6 +4,7 @@
 Welcome to my Getroman.dev portfolio site. This site was built to fulfill a specific set of user stories/personas that describes some user needs and ultimately help me land a role as a software engineer.
 
 ## Live Demo
+#### ```Link:``` www.getroman.dev
 Link: www.getroman.dev
 
 ## Process
@@ -11,14 +12,15 @@ Link: www.getroman.dev
 - Trello https://bit.ly/getromanTrelloScrumBanBoard
 - User Personas https://bit.ly/getromanDevUserPersonas
 - Product Backlog https://bit.ly/getromanDevProductBacklog
-- Sprint Backlog https://bit.ly/getromanTrelloScrumBanBoard
+[Sprint Backlog] (https://bit.ly/getromanTrelloScrumBanBoard)
 
-## UX / UI / Design Stack
+## UX/UI Design Stack
+-Optimal Workshop
+    - [Open card sorting] https://637535ds.optimalworkshop.com/optimalsort/732jwubj  
 - Figma
     - Getroman Logo Design
     - Getroman Web Design
-Optimal Workshop
-    - Need to add stuff here
+
 
 
 
