@@ -15,9 +15,9 @@ Welcome to my Getroman.dev portfolio site. This site was built to fulfill a spec
 
 ## UX/UI Design Stack
 #### ```UX/UI Research```
--Optimal Workshop
+- Optimal Workshop
     - [Open card sorting](https://637535ds.optimalworkshop.com/optimalsort/732jwubj) 
-### ```Design & Prototyping```
+#### ```Design & Prototyping```
 - Figma
     - [Getroman Logo Design](https://www.figma.com/file/HCPGm864RVZgPHiveMZ2Qg/Getroman?node-id=0%3A1)
     - [Getroman Design for Under Construction Layouts](https://www.figma.com/file/HCPGm864RVZgPHiveMZ2Qg/Getroman?node-id=145%3A974)
