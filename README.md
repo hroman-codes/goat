@@ -5,14 +5,13 @@ Welcome to my Getroman.dev portfolio site. This site was built to fulfill a spec
 
 ## Live Demo
 #### ```Link:``` www.getroman.dev
-Link: www.getroman.dev
 
 ## Process
 #### ```Agile Software Development```
-- Trello https://bit.ly/getromanTrelloScrumBanBoard
-- User Personas https://bit.ly/getromanDevUserPersonas
-- Product Backlog https://bit.ly/getromanDevProductBacklog
-[Sprint Backlog] (https://bit.ly/getromanTrelloScrumBanBoard)
+- [Trello](https://bit.ly/getromanTrelloScrumBanBoard)
+- [User Personas](https://bit.ly/getromanDevUserPersonas)
+- [Product Backlog](https://bit.ly/getromanDevProductBacklog)
+- [Sprint Backlog](https://bit.ly/getromanTrelloScrumBanBoard)
 
 ## UX/UI Design Stack
 -Optimal Workshop
