@@ -7,18 +7,22 @@ Welcome to my Getroman.dev portfolio site. This site was built to fulfill a spec
 Link: www.getroman.dev
 
 ## Process
-- Agile Software Development
-    - [x] User Personas https://bit.ly/getromanDevUserPersonas
-    - [x] Product Backlog https://bit.ly/getromanDevProductBacklog
-    - [x] Sprint Backlog https://bit.ly/getromanTrelloScrumBanBoard
+#### ```Agile Software Development```
+- Trello https://bit.ly/getromanTrelloScrumBanBoard
+- User Personas https://bit.ly/getromanDevUserPersonas
+- Product Backlog https://bit.ly/getromanDevProductBacklog
+- Sprint Backlog https://bit.ly/getromanTrelloScrumBanBoard
 
-- Design Research & Development
-    - [x] something
-    - [x] somethign 
-    - [x] something
+## UX / UI / Design Stack
+- Figma
+    - Getroman Logo Design
+    - Getroman Web Design
+Optimal Workshop
+    - Need to add stuff here
+
+
 
 ## Tech Stack
-- Trello 
 - React
 - Jest.io for unit testing
     - PUT CODE HERE FOR RENDEr COMPONENT
@@ -28,9 +32,6 @@ Link: www.getroman.dev
     - Cloudfront for CDN distrabution
     - ROUTE 53 for DNS distrabution
     - AWS Certificate Manager
-- Figma
-    - Getroman Logo Design [Link]
-    - Getroman Web Design [Link]
 
 ## Done
 - [x] create under construction page
