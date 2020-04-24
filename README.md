@@ -27,23 +27,23 @@ Welcome to my Getroman.dev portfolio site. This site was built to fulfill a spec
     
 
 ## Tech Stack
-### ```Scaffolding```
+#### ```Scaffolding```
 - HTML
-### ```Styling``` 
+#### ```Styling``` 
 - CSS
 - CSS Grid
-### ```Javascript Library```
+#### ```Javascript Library```
 - React
     - Utilized React Hooks `16.8`
-### ```Testing```
+#### ```Testing```
 - Jestjs.io
     - Tested if Components Rendered Without Crashing
-### ```Deployment/Hosting Infrastructure```
+#### ```Deployment/Hosting Infrastructure```
 - AWS 
     - S3 for Object Storage / Static Web Site
     - Cloudfront for Global CDN Distribution
     - ROUTE 53 for DNS Service
     - AWS Certificate Manager for Provisioning and Deploying Secure Sockets Layer/Transport Layer Security (SSL/TLS) certificates
     - AWS CodePipeline for Continuous Integration & Continuous Deployment
-### ```Website Tracking```
+#### ```Website Tracking```
 - Google Analytics
