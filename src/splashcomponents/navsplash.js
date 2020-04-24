@@ -51,7 +51,6 @@ const Navsplash = () => {
     // google analytics hook
     useEffect(() => {
         ReactGA.initialize('UA-164057002-1')
-
         // to report page view
         ReactGA.pageview('/underConstructionPage');
     }, []);
@@ -159,8 +158,8 @@ const Navsplash = () => {
 
                     <div className='footerTextContainer'>
                         <p className='footerText'>In my 6 years of experience as a self-taught developer, 
-                        I have learned how to learn, identified my most effective learning style, owned the 
-                        stage as a technical instructor and invented a new pedagogy called Draw Act Build (D.A.B) 
+                        I have identified my most effective learning style, owned the 
+                        stage as a technical instructor, and invented a new pedagogy called Draw Act Build (D.A.B) 
                         that helped code-newbies retain technical concepts. I've cultivated my experiences to produce 
                         a visual model that best illustrates my DNA make-up as a developer, communicator, and problem solver. 
                         This is my Minimal Viable Developer Skillset Model.</p>
@@ -305,14 +304,12 @@ const Navsplash = () => {
                     </div>
 
                     <div className='MVDSMAboutMeContainer'> 
-                        <p className='MVDSMAboutMeText'>
-                            In my 6 years of experience as a self-taught developer, 
-                            I have learned how to learn, identified my most effective learning style, owned the 
-                            stage as a technical instructor and invented a new pedagogy called Draw Act Build (D.A.B) 
-                            that helped code-newbies retain technical concepts. I've cultivated my experiences to produce 
-                            a visual model that best illustrates my DNA make-up as a developer, communicator, and problem solver. 
-                            This is my Minimal Viable Developer Skillset Model.
-                        </p>
+                        <p className='MVDSMAboutMeText'>In my 6 years of experience as a self-taught developer, 
+                        I have identified my most effective learning style, owned the 
+                        stage as a technical instructor, and invented a new pedagogy called Draw Act Build (D.A.B) 
+                        that helped code-newbies retain technical concepts. I've cultivated my experiences to produce 
+                        a visual model that best illustrates my DNA make-up as a developer, communicator, and problem solver. 
+                        This is my Minimal Viable Developer Skillset Model.</p>
                     </div>
 
                     <div className='MVDSMGraphContainer'>
@@ -385,9 +382,6 @@ const Navsplash = () => {
 
                 <div className='getromanSocialMediaGrid'>
                     <div className='linkedInContainer'>
-                        {/* <a href='https://www.linkedin.com/in/heribertoroman/' target='_blank' className='splashSocialMediaIcons' rel="noopener noreferrer">
-                            <i class="fab fa-linkedin-in fa-7x"></i>
-                        </a> */}
                         <ReactGA.OutboundLink
                             eventLabel='Linkedin'
                             to='https://www.linkedin.com/in/heribertoroman/'
@@ -398,9 +392,6 @@ const Navsplash = () => {
                     </div>
 
                     <div className='mediumContainer'>
-                        {/* <a href='https://medium.com/@getroman.dev' target='_blank' className='splashSocialMediaIcons' rel="noopener noreferrer">
-                            <i class="fab fa-medium-m fa-7x"></i>
-                        </a> */}
                         <ReactGA.OutboundLink
                             eventLabel='Medium'
                             to='https://medium.com/@getroman.dev'
@@ -411,9 +402,6 @@ const Navsplash = () => {
                     </div>
 
                     <div className='githubContainer'>
-                        {/* <a href='https://github.com/getromandev' target='_blank' className='splashSocialMediaIcons' rel="noopener noreferrer">
-                            <i class="fab fa-github fa-7x"></i>
-                        </a> */}
                         <ReactGA.OutboundLink
                             eventLabel='GitHub'
                             to='https://github.com/getromandev'
@@ -424,9 +412,6 @@ const Navsplash = () => {
                     </div>
 
                     <div className='dribbleContainer'>
-                        {/* <a href='https://dribbble.com/getroman' target='_blank' className='splashSocialMediaIcons' rel="noopener noreferrer">
-                            <i class="fab fa-dribbble fa-7x"></i>
-                        </a> */}
                         <ReactGA.OutboundLink
                             eventLabel='Dribble'
                             to='https://dribbble.com/getroman'
@@ -437,9 +422,6 @@ const Navsplash = () => {
                     </div>
 
                     <div className='awsContainer'>
-                        {/* <a href='https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-12-02&ci=AWS01186088' target='_blank' className='splashSocialMediaIcons' rel="noopener noreferrer">
-                            <i class="fab fa-aws fa-7x"></i>
-                        </a> */}
                         <ReactGA.OutboundLink
                             eventLabel='AWS'
                             to='https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-12-02&ci=AWS01186088'
@@ -466,14 +448,12 @@ const Navsplash = () => {
                     </div>
 
                     <div className='MVDSMAboutMeContainer'> 
-                        <p className='MVDSMAboutMeText'>
-                            In my 6 years of experience as a self-taught developer, 
-                            I have learned how to learn, identified my most effective learning style, owned the 
-                            stage as a technical instructor and invented a new pedagogy called Draw Act Build (D.A.B) 
-                            that helped code-newbies retain technical concepts. I've cultivated my experiences to produce 
-                            a visual model that best illustrates my DNA make-up as a developer, communicator, and problem solver. 
-                            This is my Minimal Viable Developer Skillset Model.
-                        </p>
+                        <p className='MVDSMAboutMeText'>In my 6 years of experience as a self-taught developer, 
+                        I have identified my most effective learning style, owned the 
+                        stage as a technical instructor, and invented a new pedagogy called Draw Act Build (D.A.B) 
+                        that helped code-newbies retain technical concepts. I've cultivated my experiences to produce 
+                        a visual model that best illustrates my DNA make-up as a developer, communicator, and problem solver. 
+                        This is my Minimal Viable Developer Skillset Model.</p>
                     </div>
 
                     <div className='MVDSMGraphContainer'>
