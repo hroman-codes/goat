@@ -16,28 +16,34 @@ Welcome to my Getroman.dev portfolio site. This site was built to fulfill a spec
 ## UX/UI Design Stack
 #### ```UX/UI Research```
 - Optimal Workshop
-    - [Open card sorting](https://637535ds.optimalworkshop.com/optimalsort/732jwubj) 
+    - [Open card sorting](https://bit.ly/getromanDevOpenCardSort) 
 #### ```Design & Prototyping```
 - Figma
-    - [Getroman Logo Design](https://www.figma.com/file/HCPGm864RVZgPHiveMZ2Qg/Getroman?node-id=0%3A1)
-    - [Getroman Design for Under Construction Layouts](https://www.figma.com/file/HCPGm864RVZgPHiveMZ2Qg/Getroman?node-id=145%3A974)
-    - [Getroman Style Guide](https://www.figma.com/file/HCPGm864RVZgPHiveMZ2Qg/Getroman?node-id=140%3A0)
-    - [Getroman Social Media Ads](https://www.figma.com/file/HCPGm864RVZgPHiveMZ2Qg/Getroman?node-id=790%3A0)
+    - [Logo Design](https://bit.ly/getromanDevLogoDesign)
+    - [Style Guide](https://bit.ly/getromanDevStyleGuide)
+    - [Social Media Ads](https://bit.ly/getromanDevSocialMediaAds)
+    - [Design for Under Construction Layouts](https://bit.ly/getromanDecUCLayouts)
+    - [Design for Portfolio Site](https://bit.ly/getromanDevPortfolioSiteDesign)
+    
 
 ## Tech Stack
+### ```Scaffolding```
 - HTML
+### ```Styling``` 
+- CSS
 - CSS Grid
+### ```Javascript Library```
 - React
-- Jest.io for unit testing
-    - PUT CODE HERE FOR RENDEr COMPONENT
-    - PUT CODE HERE FOR RENDER BUTTON
+    - Utilized React Hooks `16.8`
+### ```Testing```
+- Jestjs.io
+    - Tested if Components Rendered Without Crashing
+### ```Deployment/Hosting Infrastructure```
 - AWS 
-    - S3 for static web hosting
-    - Cloudfront for CDN distrabution
-    - ROUTE 53 for DNS distrabution
-    - AWS Certificate Manager
-
-## Done
-- [x] create under construction page
-
-## Leave Instructions here on how to fork if user wants to see my under construction page after I Merge. 
+    - S3 for Object Storage / Static Web Site
+    - Cloudfront for Global CDN Distribution
+    - ROUTE 53 for DNS Service
+    - AWS Certificate Manager for Provisioning and Deploying Secure Sockets Layer/Transport Layer Security (SSL/TLS) certificates
+    - AWS CodePipeline for Continuous Integration & Continuous Deployment
+### ```Website Tracking```
+- Google Analytics
