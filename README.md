@@ -4,7 +4,7 @@
 Welcome to my Getroman.dev portfolio site. This site was built to fulfill a specific set of user stories/personas that describes some user needs and ultimately help me land a role as a software engineer.
 
 ## Live Demo
-[www.getroman.dev](www.getroman.dev)
+[www.getroman.dev](https://getroman.dev/)
 
 ## Process
 #### ```Agile Software Development```
