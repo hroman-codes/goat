@@ -109,7 +109,7 @@ const Navsplash = () => {
 
                         <ReactGA.OutboundLink
                             eventLabel='GitHub'
-                            to='https://github.com/getromandev'
+                            to='https://github.com/getromandev/goat/tree/ft-create-splash-page-00'
                             target='_blank'
                             rel='noopener noreferrer'>
                                 <i className="fab fa-github fa-7x"></i>
@@ -250,7 +250,7 @@ const Navsplash = () => {
 
                         <ReactGA.OutboundLink
                             eventLabel='GitHub'
-                            to='https://github.com/getromandev'
+                            to='https://github.com/getromandev/goat/tree/ft-create-splash-page-00'
                             target='_blank'
                             rel='noopener noreferrer'>
                                 <i className="fab fa-github fa-7x"></i>
@@ -404,7 +404,7 @@ const Navsplash = () => {
                     <div className='githubContainer'>
                         <ReactGA.OutboundLink
                             eventLabel='GitHub'
-                            to='https://github.com/getromandev'
+                            to='https://github.com/getromandev/goat/tree/ft-create-splash-page-00'
                             target='_blank'
                             rel='noopener noreferrer'>
                                 <i className="fab fa-github fa-7x"></i>
