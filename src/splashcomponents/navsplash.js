@@ -11,7 +11,7 @@ import SplashStarsLeft from '../splashcomponents/splashStarsLeft';
 import SplashStarsRight from '../splashcomponents/splashStarsRight';
 import SplashNavLeftStars from '../splashcomponents/splashNavLeftStars';
 import SplashNavRightStars from '../splashcomponents/splashNavRightStars';
-import GetromanHeadShot from './images/getroman_head_shot.jpeg';
+import GetromanHeadShot from './images/getroman_head_shot_compressed.jpeg';
 import SplashGetromanLogoWithText from '../splashcomponents/splashGetromanLogoWithText';
 import SplashButton from '../splashcomponents/splashButton';
 import SplashFooterMVDSM from '../splashcomponents/splashFooterMVDSM'; 
