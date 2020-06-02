@@ -124,11 +124,11 @@ const Navsplash = () => {
                         </ReactGA.OutboundLink>
 
                         <ReactGA.OutboundLink
-                            eventLabel='Medium'
-                            to='https://medium.com/@getroman.dev'
+                            eventLabel='DEV'
+                            to='https://dev.to/getroman_dev'
                             target='_blank'
                             rel='noopener noreferrer'>
-                                <i className="fab fa-medium-m fa-7x"></i>
+                                <i className="fab fa-dev fa-7x"></i>  
                         </ReactGA.OutboundLink>
 
                         <ReactGA.OutboundLink
@@ -265,11 +265,11 @@ const Navsplash = () => {
                         </ReactGA.OutboundLink>
 
                         <ReactGA.OutboundLink
-                            eventLabel='Medium'
-                            to='https://medium.com/@getroman.dev'
+                            eventLabel='DEV'
+                            to='https://dev.to/getroman_dev'
                             target='_blank'
                             rel='noopener noreferrer'>
-                                <i className="fab fa-medium-m fa-7x"></i>
+                                <i className="fab fa-dev fa-7x"></i>  
                         </ReactGA.OutboundLink>
 
                         <ReactGA.OutboundLink
@@ -393,11 +393,11 @@ const Navsplash = () => {
 
                     <div className='mediumContainer'>
                         <ReactGA.OutboundLink
-                            eventLabel='Medium'
-                            to='https://medium.com/@getroman.dev'
+                            eventLabel='DEV'
+                            to='https://dev.to/getroman_dev'
                             target='_blank'
                             rel='noopener noreferrer'>
-                                <i className="fab fa-medium-m fa-7x"></i>
+                                <i className="fab fa-dev fa-7x"></i>  
                         </ReactGA.OutboundLink>
                     </div>
 
