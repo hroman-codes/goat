@@ -3316,7 +3316,8 @@
     .mediumContainer a, 
     .githubContainer a, 
     .dribbleContainer a,
-    .awsContainer a {
+    .awsContainer a,
+    .youtubeContainer a {
         color: #25283b;
     }
 
@@ -3372,7 +3373,19 @@
         align-items: center;
         background-color: #C4C4C4;
         display: flex;
-        grid-column: 1 / -1;
+        grid-column: 1 / 5;
+        grid-row: 11 / 16;
+        height: 100%;
+        justify-content: center;
+        border: 0.5px solid rgba(37, 40, 59, 0.5);
+        box-sizing: border-box;
+    }
+
+    .youtubeContainer {
+        align-items: center;
+        background-color: #C4C4C4;
+        display: flex;
+        grid-column: 5 / -1;
         grid-row: 11 / 16;
         height: 100%;
         justify-content: center;
@@ -3667,7 +3680,8 @@
     .mediumContainer a, 
     .githubContainer a, 
     .dribbleContainer a,
-    .awsContainer a {
+    .awsContainer a,
+    .youtubeContainer a {
         color: #25283b;
     }
 
@@ -3723,7 +3737,19 @@
         align-items: center;
         background-color: #C4C4C4;
         display: flex;
-        grid-column: 1 / -1;
+        grid-column: 1 / 5;
+        grid-row: 11 / 16;
+        height: 100%;
+        justify-content: center;
+        border: 0.5px solid rgba(37, 40, 59, 0.5);
+        box-sizing: border-box;
+    }
+
+    .youtubeContainer {
+        align-items: center;
+        background-color: #C4C4C4;
+        display: flex;
+        grid-column: 5 / -1;
         grid-row: 11 / 16;
         height: 100%;
         justify-content: center;
@@ -4016,7 +4042,8 @@
     .mediumContainer a, 
     .githubContainer a, 
     .dribbleContainer a,
-    .awsContainer a {
+    .awsContainer a,
+    .youtubeContainer a {
         color: #25283b;
     }
 
@@ -4072,7 +4099,19 @@
         align-items: center;
         background-color: #C4C4C4;
         display: flex;
-        grid-column: 1 / -1;
+        grid-column: 1 / 5;
+        grid-row: 11 / 16;
+        height: 100%;
+        justify-content: center;
+        border: 0.5px solid rgba(37, 40, 59, 0.5);
+        box-sizing: border-box;
+    }
+
+    .youtubeContainer {
+        align-items: center;
+        background-color: #C4C4C4;
+        display: flex;
+        grid-column: 5 / -1;
         grid-row: 11 / 16;
         height: 100%;
         justify-content: center;
@@ -4365,7 +4404,8 @@
     .mediumContainer a, 
     .githubContainer a, 
     .dribbleContainer a,
-    .awsContainer a {
+    .awsContainer a, 
+    .youtubeContainer a {
         color: #25283b;
     }
 
@@ -4422,7 +4462,19 @@
         align-items: center;
         background-color: #C4C4C4;
         display: flex;
-        grid-column: 1 / -1;
+        grid-column: 1 / 5;
+        grid-row: 11 / 16;
+        height: 100%;
+        justify-content: center;
+        border: 0.5px solid rgba(37, 40, 59, 0.5);
+        box-sizing: border-box;
+    }
+
+    .youtubeContainer {
+        align-items: center;
+        background-color: #C4C4C4;
+        display: flex;
+        grid-column: 5 / -1;
         grid-row: 11 / 16;
         height: 100%;
         justify-content: center;
@@ -4695,7 +4747,8 @@
     .mediumContainer a, 
     .githubContainer a, 
     .dribbleContainer a,
-    .awsContainer a {
+    .awsContainer a,
+    .youtubeContainer a {
         color: #25283b;
     }
 
@@ -4751,7 +4804,19 @@
         align-items: center;
         background-color: #C4C4C4;
         display: flex;
-        grid-column: 1 / -1;
+        grid-column: 1 / 5;
+        grid-row: 11 / 16;
+        height: 100%;
+        justify-content: center;
+        border: 0.5px solid rgba(37, 40, 59, 0.5);
+        box-sizing: border-box;
+    }
+
+    .youtubeContainer {
+        align-items: center;
+        background-color: #C4C4C4;
+        display: flex;
+        grid-column: 5 / -1;
         grid-row: 11 / 16;
         height: 100%;
         justify-content: center;
@@ -5024,7 +5089,8 @@
     .mediumContainer a, 
     .githubContainer a, 
     .dribbleContainer a,
-    .awsContainer a {
+    .awsContainer a, 
+    .youtubeContainer a {
         color: #25283b;
     }
 
@@ -5080,7 +5146,19 @@
         align-items: center;
         background-color: #C4C4C4;
         display: flex;
-        grid-column: 1 / -1;
+        grid-column: 1 / 5;
+        grid-row: 11 / 16;
+        height: 100%;
+        justify-content: center;
+        border: 0.5px solid rgba(37, 40, 59, 0.5);
+        box-sizing: border-box;
+    }
+
+    .youtubeContainer {
+        align-items: center;
+        background-color: #C4C4C4;
+        display: flex;
+        grid-column: 5 / -1;
         grid-row: 11 / 16;
         height: 100%;
         justify-content: center;
@@ -5352,7 +5430,8 @@
     .mediumContainer a, 
     .githubContainer a, 
     .dribbleContainer a,
-    .awsContainer a {
+    .awsContainer a, 
+    .youtubeContainer a {
         color: #25283b;
     }
 
@@ -5408,7 +5487,19 @@
         align-items: center;
         background-color: #C4C4C4;
         display: flex;
-        grid-column: 1 / -1;
+        grid-column: 1 / 5;
+        grid-row: 11 / 16;
+        height: 100%;
+        justify-content: center;
+        border: 0.5px solid rgba(37, 40, 59, 0.5);
+        box-sizing: border-box;
+    }
+
+    .youtubeContainer {
+        align-items: center;
+        background-color: #C4C4C4;
+        display: flex;
+        grid-column: 5 / -1;
         grid-row: 11 / 16;
         height: 100%;
         justify-content: center;
