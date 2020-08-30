@@ -138,6 +138,16 @@ const Navsplash = () => {
                             rel='noopener noreferrer'>
                                 <i className="fab fa-aws fa-7x"></i>
                         </ReactGA.OutboundLink>
+
+                        <ReactGA.OutboundLink
+                            eventLabel='Youtube'
+                            to='https://www.youtube.com/watch?v=k2HtPUjdDSk&t'
+                            target='_blank'
+                            rel='noopener noreferrer'>
+                                <i class="fab fa-youtube fa-7x"></i>
+                        </ReactGA.OutboundLink>
+
+                        
                     </div>
 
                     <div className='bottomMainContainer'></div>
@@ -278,6 +288,14 @@ const Navsplash = () => {
                             target='_blank'
                             rel='noopener noreferrer'>
                                 <i className="fab fa-aws fa-7x"></i>
+                        </ReactGA.OutboundLink>
+
+                        <ReactGA.OutboundLink
+                            eventLabel='Youtube'
+                            to='https://www.youtube.com/watch?v=k2HtPUjdDSk&t'
+                            target='_blank'
+                            rel='noopener noreferrer'>
+                                <i class="fab fa-youtube fa-7x"></i>
                         </ReactGA.OutboundLink>
                     </div>
                 </div>
@@ -428,6 +446,16 @@ const Navsplash = () => {
                             target='_blank'
                             rel='noopener noreferrer'>
                                 <i className="fab fa-aws fa-7x"></i>
+                        </ReactGA.OutboundLink>
+                    </div>
+
+                    <div className='youtubeContainer'>
+                        <ReactGA.OutboundLink
+                            eventLabel='Youtube'
+                            to='https://www.youtube.com/watch?v=k2HtPUjdDSk&t'
+                            target='_blank'
+                            rel='noopener noreferrer'>
+                                <i class="fab fa-youtube fa-7x"></i>
                         </ReactGA.OutboundLink>
                     </div>
 
