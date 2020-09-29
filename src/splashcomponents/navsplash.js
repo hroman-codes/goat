@@ -141,7 +141,7 @@ const Navsplash = () => {
 
                         <ReactGA.OutboundLink
                             eventLabel='Youtube'
-                            to='https://www.youtube.com/watch?v=k2HtPUjdDSk&t'
+                            to='https://www.youtube.com/channel/UCWLLLB21WpFoNklfx1et25A?'
                             target='_blank'
                             rel='noopener noreferrer'>
                                 <i class="fab fa-youtube fa-7x"></i>
@@ -292,7 +292,7 @@ const Navsplash = () => {
 
                         <ReactGA.OutboundLink
                             eventLabel='Youtube'
-                            to='https://www.youtube.com/watch?v=k2HtPUjdDSk&t'
+                            to='https://www.youtube.com/channel/UCWLLLB21WpFoNklfx1et25A?'
                             target='_blank'
                             rel='noopener noreferrer'>
                                 <i class="fab fa-youtube fa-7x"></i>
@@ -452,7 +452,7 @@ const Navsplash = () => {
                     <div className='youtubeContainer'>
                         <ReactGA.OutboundLink
                             eventLabel='Youtube'
-                            to='https://www.youtube.com/watch?v=k2HtPUjdDSk&t'
+                            to='https://www.youtube.com/channel/UCWLLLB21WpFoNklfx1et25A?'
                             target='_blank'
                             rel='noopener noreferrer'>
                                 <i class="fab fa-youtube fa-7x"></i>
