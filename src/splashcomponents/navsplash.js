@@ -79,7 +79,7 @@ const Navsplash = () => {
                     <div className='splashStarsLeft'> <SplashStarsLeft /> </div>
                     <div className='splashStarsRight'> <SplashStarsRight /> </div>
                     <div className='underConstructionText'>
-                        <p>The site is currently under construction<span role='img' aria-label='construction'>👷 🚧</span>. But in the meantime here is a little about myself.</p>
+                        <p>Software Engineer <span role='img' aria-label='computer'>💻</span> | Technical Instructor <span role='img' aria-label='teacher'>👨‍🏫</span> | AWS Certified Cloud Practitioner <span role='img' aria-label='check'>✅</span></p>
                     </div>
                 </div>
 
@@ -94,7 +94,7 @@ const Navsplash = () => {
                     </div>
 
                     <div className='getromanIntroText'> 
-                        <p> Developer | Technical Instructor | AWS Certified Cloud Practitioner </p>
+                        <p> Contact Me <span role='img' aria-label='phone'>📲 </span><span role='img' aria-label='mail'>📨 </span><span role='img' aria-label='wave'>👋 </span></p>
                         <p> <i className="fas fa-envelope"></i> getroman.dev@gmail.com </p>
                     </div>
 
@@ -144,7 +144,7 @@ const Navsplash = () => {
                             to='https://www.youtube.com/channel/UCWLLLB21WpFoNklfx1et25A?'
                             target='_blank'
                             rel='noopener noreferrer'>
-                                <i class="fab fa-youtube fa-7x"></i>
+                                <i className="fab fa-youtube fa-7x"></i>
                         </ReactGA.OutboundLink>
 
                         
@@ -227,7 +227,7 @@ const Navsplash = () => {
                     <div className='splashStarsLeft'> <SplashStarsLeft /> </div>
                     <div className='splashStarsRight'> <SplashStarsRight /> </div>
                     <div className='underConstructionText'>
-                        <p>The site is currently under construction<span role='img' aria-label='construction'>👷 🚧</span>. But in the meantime here is a little about myself.</p>
+                    <p>Software Engineer <span role='img' aria-label='computer'>💻</span> | Technical Instructor <span role='img' aria-label='teacher'>👨‍🏫</span> | AWS Certified Cloud Practitioner <span role='img' aria-label='check'>✅</span></p>
                     </div>
                 </div>
 
@@ -245,7 +245,7 @@ const Navsplash = () => {
                     </div>
 
                     <div className='getromanIntroTextContainer'>
-                        <p> Developer | Technical Instructor | AWS Certified Cloud Practitioner </p>
+                    <p> Contact Me <span role='img' aria-label='phone'>📲 </span><span role='img' aria-label='mail'>📨 </span><span role='img' aria-label='wave'>👋 </span></p>
                         <p> <i class="fas fa-envelope"></i> getroman.dev@gmail.com </p>
                     </div>
 
@@ -376,7 +376,7 @@ const Navsplash = () => {
 
                 <div className='navFooterContainer'>
                     <div className='underConstructionText'>
-                        <p>The site is currently under construction<span role='img' aria-label='construction'>👷 🚧</span>. But in the meantime here is a little about myself.</p>
+                    <p>Software Engineer <span role='img' aria-label='computer'>💻</span> | Technical Instructor <span role='img' aria-label='teacher'>👨‍🏫</span> | AWS Certified Cloud Practitioner <span role='img' aria-label='check'>✅</span></p>
                     </div>
                 </div>
 
@@ -389,7 +389,7 @@ const Navsplash = () => {
                 <div className='getromanHeadlineDetailsContainer'>
 
                     <div className='getromanIntroTextContainer'>
-                        <p> Developer | Technical Instructor | AWS Certified Cloud Practitioner </p>
+                    <p> Contact Me <span role='img' aria-label='phone'>📲 </span><span role='img' aria-label='mail'>📨 </span><span role='img' aria-label='wave'>👋 </span></p>
                     </div>
 
                     <div className='getromanIntroTextButton'>
