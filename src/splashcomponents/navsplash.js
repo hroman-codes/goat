@@ -133,7 +133,7 @@ const Navsplash = () => {
 
                         <ReactGA.OutboundLink
                             eventLabel='AWS'
-                            to='https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-12-02&ci=AWS01186088'
+                            to='https://www.youracclaim.com/badges/2bcefd6b-915d-4f5d-8e57-cad453b7dc2f/public_url'
                             target='_blank'
                             rel='noopener noreferrer'>
                                 <i className="fab fa-aws fa-7x"></i>
@@ -284,7 +284,7 @@ const Navsplash = () => {
 
                         <ReactGA.OutboundLink
                             eventLabel='AWS'
-                            to='https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-12-02&ci=AWS01186088'
+                            to='https://www.youracclaim.com/badges/2bcefd6b-915d-4f5d-8e57-cad453b7dc2f/public_url'
                             target='_blank'
                             rel='noopener noreferrer'>
                                 <i className="fab fa-aws fa-7x"></i>
@@ -442,7 +442,7 @@ const Navsplash = () => {
                     <div className='awsContainer'>
                         <ReactGA.OutboundLink
                             eventLabel='AWS'
-                            to='https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-12-02&ci=AWS01186088'
+                            to='https://www.youracclaim.com/badges/2bcefd6b-915d-4f5d-8e57-cad453b7dc2f/public_url'
                             target='_blank'
                             rel='noopener noreferrer'>
                                 <i className="fab fa-aws fa-7x"></i>
