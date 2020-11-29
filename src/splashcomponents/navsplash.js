@@ -109,7 +109,7 @@ const Navsplash = () => {
 
                         <ReactGA.OutboundLink
                             eventLabel='GitHub'
-                            to='https://github.com/getromandev/goat/tree/master'
+                            to='https://github.com/getromandev'
                             target='_blank'
                             rel='noopener noreferrer'>
                                 <i className="fab fa-github fa-7x"></i>
@@ -260,7 +260,7 @@ const Navsplash = () => {
 
                         <ReactGA.OutboundLink
                             eventLabel='GitHub'
-                            to='https://github.com/getromandev/goat/tree/master'
+                            to='https://github.com/getromandev'
                             target='_blank'
                             rel='noopener noreferrer'>
                                 <i className="fab fa-github fa-7x"></i>
@@ -422,7 +422,7 @@ const Navsplash = () => {
                     <div className='githubContainer'>
                         <ReactGA.OutboundLink
                             eventLabel='GitHub'
-                            to='https://github.com/getromandev/goat/tree/master'
+                            to='https://github.com/getromandev'
                             target='_blank'
                             rel='noopener noreferrer'>
                                 <i className="fab fa-github fa-7x"></i>
