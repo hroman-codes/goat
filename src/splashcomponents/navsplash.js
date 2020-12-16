@@ -128,7 +128,7 @@ const Navsplash = () => {
                             to='https://dev.to/getroman_dev'
                             target='_blank'
                             rel='noopener noreferrer'>
-                                <i className="fab fa-dev fa-4x"></i>  
+                                <i className="fab fa-dev fa-6x"></i>  
                         </ReactGA.OutboundLink>
 
                         <ReactGA.OutboundLink
@@ -136,7 +136,7 @@ const Navsplash = () => {
                             to='https://www.youracclaim.com/badges/2bcefd6b-915d-4f5d-8e57-cad453b7dc2f/public_url'
                             target='_blank'
                             rel='noopener noreferrer'>
-                                <i className="fab fa-aws fa-7x"></i>
+                                <i className="fab fa-aws fa-6x"></i>
                         </ReactGA.OutboundLink>
 
                         <ReactGA.OutboundLink
@@ -144,7 +144,7 @@ const Navsplash = () => {
                             to='https://www.youtube.com/channel/UCWLLLB21WpFoNklfx1et25A?'
                             target='_blank'
                             rel='noopener noreferrer'>
-                                <i className="fab fa-youtube fa-4x"></i>
+                                <i className="fab fa-youtube fa-6x"></i>
                         </ReactGA.OutboundLink>
 
                         <ReactGA.OutboundLink
@@ -152,7 +152,7 @@ const Navsplash = () => {
                             to='https://discord.gg/nj5k2WhQdh'
                             target='_blank'
                             rel='noopener noreferrer'>
-                                <i class="fab fa-discord fa-4x"></i>
+                                <i class="fab fa-discord fa-7x"></i>
                         </ReactGA.OutboundLink>
 
                         
