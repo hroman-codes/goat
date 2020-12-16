@@ -128,7 +128,7 @@ const Navsplash = () => {
                             to='https://dev.to/getroman_dev'
                             target='_blank'
                             rel='noopener noreferrer'>
-                                <i className="fab fa-dev fa-7x"></i>  
+                                <i className="fab fa-dev fa-4x"></i>  
                         </ReactGA.OutboundLink>
 
                         <ReactGA.OutboundLink
@@ -144,7 +144,15 @@ const Navsplash = () => {
                             to='https://www.youtube.com/channel/UCWLLLB21WpFoNklfx1et25A?'
                             target='_blank'
                             rel='noopener noreferrer'>
-                                <i className="fab fa-youtube fa-7x"></i>
+                                <i className="fab fa-youtube fa-4x"></i>
+                        </ReactGA.OutboundLink>
+
+                        <ReactGA.OutboundLink
+                            eventLabel='Discord'
+                            to='https://discord.gg/nj5k2WhQdh'
+                            target='_blank'
+                            rel='noopener noreferrer'>
+                                <i class="fab fa-discord fa-4x"></i>
                         </ReactGA.OutboundLink>
 
                         
@@ -279,7 +287,7 @@ const Navsplash = () => {
                             to='https://dev.to/getroman_dev'
                             target='_blank'
                             rel='noopener noreferrer'>
-                                <i className="fab fa-dev fa-7x"></i>  
+                                <i className="fab fa-dev fa-6x"></i>  
                         </ReactGA.OutboundLink>
 
                         <ReactGA.OutboundLink
@@ -295,7 +303,15 @@ const Navsplash = () => {
                             to='https://www.youtube.com/channel/UCWLLLB21WpFoNklfx1et25A?'
                             target='_blank'
                             rel='noopener noreferrer'>
-                                <i class="fab fa-youtube fa-7x"></i>
+                                <i class="fab fa-youtube fa-6x"></i>
+                        </ReactGA.OutboundLink>
+
+                        <ReactGA.OutboundLink
+                            eventLabel='Discord'
+                            to='https://discord.gg/nj5k2WhQdh'
+                            target='_blank'
+                            rel='noopener noreferrer'>
+                                <i class="fab fa-discord fa-6x"></i>
                         </ReactGA.OutboundLink>
                     </div>
                 </div>
@@ -431,11 +447,11 @@ const Navsplash = () => {
 
                     <div className='dribbleContainer'>
                         <ReactGA.OutboundLink
-                            eventLabel='Dribble'
-                            to='https://dribbble.com/getroman'
+                            eventLabel='Discord'
+                            to='https://discord.gg/nj5k2WhQdh'
                             target='_blank'
                             rel='noopener noreferrer'>
-                                <i className="fab fa-dribbble fa-7x"></i>
+                                <i class="fab fa-discord fa-7x"></i>
                         </ReactGA.OutboundLink>
                     </div>
 
