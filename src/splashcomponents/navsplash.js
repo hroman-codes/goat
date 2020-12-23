@@ -125,7 +125,7 @@ const Navsplash = () => {
 
                         <ReactGA.OutboundLink
                             eventLabel='DEV'
-                            to='https://dev.to/getroman_dev'
+                            to='https://dev.to/built_by_getroman'
                             target='_blank'
                             rel='noopener noreferrer'>
                                 <i className="fab fa-dev fa-6x"></i>  
@@ -284,7 +284,7 @@ const Navsplash = () => {
 
                         <ReactGA.OutboundLink
                             eventLabel='DEV'
-                            to='https://dev.to/getroman_dev'
+                            to='https://dev.to/built_by_getroman'
                             target='_blank'
                             rel='noopener noreferrer'>
                                 <i className="fab fa-dev fa-6x"></i>  
@@ -428,7 +428,7 @@ const Navsplash = () => {
                     <div className='mediumContainer'>
                         <ReactGA.OutboundLink
                             eventLabel='DEV'
-                            to='https://dev.to/getroman_dev'
+                            to='https://dev.to/built_by_getroman'
                             target='_blank'
                             rel='noopener noreferrer'>
                                 <i className="fab fa-dev fa-7x"></i>  
