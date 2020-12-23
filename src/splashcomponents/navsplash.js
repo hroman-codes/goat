@@ -117,7 +117,7 @@ const Navsplash = () => {
 
                         <ReactGA.OutboundLink
                             eventLabel='Dribble'
-                            to='https://dribbble.com/getroman'
+                            to='https://dribbble.com/built_by_getroman'
                             target='_blank'
                             rel='noopener noreferrer'>
                                 <i className="fab fa-dribbble fa-7x"></i>
@@ -276,7 +276,7 @@ const Navsplash = () => {
 
                         <ReactGA.OutboundLink
                             eventLabel='Dribble'
-                            to='https://dribbble.com/getroman'
+                            to='https://dribbble.com/built_by_getroman'
                             target='_blank'
                             rel='noopener noreferrer'>
                                 <i className="fab fa-dribbble fa-7x"></i>
