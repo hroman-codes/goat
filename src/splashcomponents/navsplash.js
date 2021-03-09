@@ -128,7 +128,7 @@ const Navsplash = () => {
                             to='https://builtbygetroman.medium.com/'
                             target='_blank'
                             rel='noopener noreferrer'>
-                                <i className="fab fa-medium fa-5x"></i>  
+                                <i className="fab fa-medium fa-7x"></i>  
                         </ReactGA.OutboundLink>
 
                         <ReactGA.OutboundLink
