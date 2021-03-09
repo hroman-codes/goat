@@ -124,11 +124,11 @@ const Navsplash = () => {
                         </ReactGA.OutboundLink>
 
                         <ReactGA.OutboundLink
-                            eventLabel='DEV'
-                            to='https://dev.to/built_by_getroman'
+                            eventLabel='Medium'
+                            to='https://builtbygetroman.medium.com/'
                             target='_blank'
                             rel='noopener noreferrer'>
-                                <i className="fab fa-dev fa-6x"></i>  
+                                <i className="fab fa-medium fa-5x"></i>  
                         </ReactGA.OutboundLink>
 
                         <ReactGA.OutboundLink
@@ -152,7 +152,7 @@ const Navsplash = () => {
                             to='https://discord.gg/nj5k2WhQdh'
                             target='_blank'
                             rel='noopener noreferrer'>
-                                <i class="fab fa-discord fa-7x"></i>
+                                <i class="fab fa-discord fa-6x"></i>
                         </ReactGA.OutboundLink>
 
                         
@@ -283,11 +283,11 @@ const Navsplash = () => {
                         </ReactGA.OutboundLink>
 
                         <ReactGA.OutboundLink
-                            eventLabel='DEV'
-                            to='https://dev.to/built_by_getroman'
+                            eventLabel='Medium'
+                            to='https://builtbygetroman.medium.com/'
                             target='_blank'
                             rel='noopener noreferrer'>
-                                <i className="fab fa-dev fa-6x"></i>  
+                                <i className="fab fa-medium fa-5x"></i>  
                         </ReactGA.OutboundLink>
 
                         <ReactGA.OutboundLink
@@ -427,11 +427,11 @@ const Navsplash = () => {
 
                     <div className='mediumContainer'>
                         <ReactGA.OutboundLink
-                            eventLabel='DEV'
-                            to='https://dev.to/built_by_getroman'
+                            eventLabel='Medium'
+                            to='https://builtbygetroman.medium.com/'
                             target='_blank'
                             rel='noopener noreferrer'>
-                                <i className="fab fa-dev fa-7x"></i>  
+                                <i className="fab fa-medium fa-7x"></i>  
                         </ReactGA.OutboundLink>
                     </div>
 
