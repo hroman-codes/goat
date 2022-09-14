@@ -1,10 +1,10 @@
-![Getroman Logo](src/splashcomponents/images/gitHubReadme_Logo.png)
+![Getroman Logo](src/components/splashcomponents/images/gitHubReadme_Logo.png)
 
 ## Description
 >Welcome to my Getroman.dev portfolio site. This site was built to fulfill a specific set of user stories/personas that describes some user needs and ultimately help me land a role as a software engineer.
 
 ## Live Demo
-[www.getroman.dev](https://getroman.dev/)
+[Demo](http://bbgportfoliositeversionone.s3-website-us-east-1.amazonaws.com/)
 
 ## Process
 ##### ```Agile Software Development```
