@@ -48,8 +48,6 @@
        - DNS Service
     - AWS Certificate Manager 
        - Provisioning and Deploying Secure Sockets Layer/Transport Layer Security (SSL/TLS) certificates
-    - AWS CodePipeline
-       - Continuous Integration & Continuous Deployment
 ##### ```Website Tracking```
 - Google Analytics
   - Web Tracking

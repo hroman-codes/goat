@@ -9,7 +9,7 @@ import Splashpage from './splashcomponents/splash';
 class Landing extends Component {
     render() {
         return (
-            <div style={{ width: '100%', margin: 'auto' }}>
+            <div style={{ width: '100%', margin: 'auto', height: 'auto', overflowY: 'scroll'}}>
                 <Grid className='landingGrid'>
                     <Cell col={12}>
                         <Getromanlogo
