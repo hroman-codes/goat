@@ -3,22 +3,22 @@ import './splash.css';
 import ReactGA from 'react-ga';
 
 import Cloudsplash from './cloudsplash'; 
-import SplashGetromanLogo from '../splashcomponents/splashGetromanLogo';
-import SplashNavBigMoonLeft from '../splashcomponents/splashNavBigMoonLeft';
-import SplashNavSmallMoonLeft from '../splashcomponents/splashNavSmallMoonLeft';
-import SplashNavSmallMoonRight from '../splashcomponents/splashNavSmallMoonRight';
-import SplashStarsLeft from '../splashcomponents/splashStarsLeft';
-import SplashStarsRight from '../splashcomponents/splashStarsRight';
-import SplashNavLeftStars from '../splashcomponents/splashNavLeftStars';
-import SplashNavRightStars from '../splashcomponents/splashNavRightStars';
+import SplashGetromanLogo from './splashGetromanLogo';
+import SplashNavBigMoonLeft from './splashNavBigMoonLeft';
+import SplashNavSmallMoonLeft from './splashNavSmallMoonLeft';
+import SplashNavSmallMoonRight from './splashNavSmallMoonRight';
+import SplashStarsLeft from './splashStarsLeft';
+import SplashStarsRight from './splashStarsRight';
+import SplashNavLeftStars from './splashNavLeftStars';
+import SplashNavRightStars from './splashNavRightStars';
 import GetromanHeadShot from './images/getroman_head_shot_compressed.jpeg';
-import SplashGetromanLogoWithText from '../splashcomponents/splashGetromanLogoWithText';
-import SplashButton from '../splashcomponents/splashButton';
-import SplashFooterMVDSM from '../splashcomponents/splashFooterMVDSM'; 
-import SplashWavyFooter from '../splashcomponents/splashWavyFooter'; 
-import SplashGetromanSpaceShip from '../splashcomponents/splashGetromanSpaceShip';
-import SplashFooterStars from '../splashcomponents/splashFooterStars';
-import SplashFooterButton from '../splashcomponents/splashFooterButton';
+import SplashGetromanLogoWithText from './splashGetromanLogoWithText';
+import SplashButton from './splashButton';
+import SplashFooterMVDSM from './splashFooterMVDSM'; 
+import SplashWavyFooter from './splashWavyFooter'; 
+import SplashGetromanSpaceShip from './splashGetromanSpaceShip';
+import SplashFooterStars from './splashFooterStars';
+import SplashFooterButton from './splashFooterButton';
 
 const Navsplash = () => {
 

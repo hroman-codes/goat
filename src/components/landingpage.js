@@ -4,6 +4,7 @@ import Getromanlogo from './images/getromanlogo';
 import VideoBG from 'reactjs-videobg';
 import mp4 from './videos/neon.mp4';
 import Music from './music/music';
+import Splashpage from './splashcomponents/splash';
 
 class Landing extends Component {
     render() {
@@ -33,27 +34,26 @@ class Landing extends Component {
                             </a>
 
                             {/* github */}
-                            <a href='https://github.com/getromandev' rel='noopener noreferrer' target='_blank'>
+                            <a href='https://github.com/hroman-codes' rel='noopener noreferrer' target='_blank'>
                                 <i class="fab fa-github fa-2x"></i>
                             </a>
 
                              {/* AWS Cert */}
-                            <a href='https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-12-02&ci=AWS01186088' rel='noopener noreferrer' target='_blank'>
+                            <a href='https://www.credly.com/badges/2bcefd6b-915d-4f5d-8e57-cad453b7dc2f/linked_in_profile' rel='noopener noreferrer' target='_blank'>
                                 <i class="fab fa-aws fa-2x"></i>
                             </a>
 
                             {/* medium */}
-                            <a href='https://medium.com/@getroman.dev' rel='noopener noreferrer' target='_blank'>
+                            <a href='https://hroman-codes.medium.com/' rel='noopener noreferrer' target='_blank'>
                                 <i class="fab fa-medium-m fa-2x"></i>
                             </a>
 
                             {/* dribble */}
-                            <a href='https://dribbble.com/getroman' rel='noopener noreferrer' target='_blank'>
+                            <a href='https://dribbble.com/hroman_codes' rel='noopener noreferrer' target='_blank'>
                                 <i class="fab fa-dribbble fa-2x"></i>
                             </a>
                         </div>
                         </div>
-                        {/* music */}
                         <Music />
                     </Cell>
                 </Grid>

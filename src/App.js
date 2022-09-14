@@ -12,19 +12,13 @@ class App extends Component {
             <Header className='headerColor' title={<Link style={{ textDecoration: 'none', color: 'white', fontFamily: 'IBM Plex Mono'}}
             to='/'>Getroman.dev</Link>} scroll>
                 <Navigation>
-                    <Link to="/resume">Resume</Link>
                     <Link to="/aboutme">About Me</Link>
-                    <Link to="/projects">Projects</Link>
-                    <Link to="/contact">Contact</Link>
                 </Navigation>
             </Header>
             <Drawer title={<Link style={{ textDecoration: 'none', color: 'black'}}
             to='/'>Getroman.dev</Link>}>
                 <Navigation>
-                    <Link to="/resume">Resume</Link>
                     <Link to="/aboutme">About Me</Link>
-                    <Link to="/projects">Projects</Link>
-                    <Link to="/contact">Contact</Link>
                 </Navigation>
             </Drawer>
             <Content>

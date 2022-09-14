@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import Splashpage from './splashcomponents/splash';
 
 class About extends Component {
     render() {
         return (
             <div>
-                <h1>This is the About Me Page</h1>
+                <Splashpage />
             </div>
         )
     }
