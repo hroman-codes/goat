@@ -23,7 +23,7 @@ class Music extends Component {
         if (audioPromise !== undefined) {
             audioPromise
                 .then(_ => {
-                     console.log('beep')
+                     console.log('Auto Play Started! The user has interacted with the domain (click, tap, etc.).')
                 })
                 .catch(err => {
                     console.info(err)
@@ -58,4 +58,3 @@ class Music extends Component {
 }
 
 export default Music;
-

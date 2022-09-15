@@ -30,27 +30,27 @@ class Landing extends Component {
 
                             {/* linkedin */}
                             <a href='https://www.linkedin.com/in/heribertoroman/' rel='noopener noreferrer' target='_blank'>
-                                <i class="fab fa-linkedin-in fa-2x"></i>
+                                <i className="fab fa-linkedin-in fa-2x"></i>
                             </a>
 
                             {/* github */}
                             <a href='https://github.com/hroman-codes' rel='noopener noreferrer' target='_blank'>
-                                <i class="fab fa-github fa-2x"></i>
+                                <i className="fab fa-github fa-2x"></i>
                             </a>
 
                              {/* AWS Cert */}
                             <a href='https://www.credly.com/badges/2bcefd6b-915d-4f5d-8e57-cad453b7dc2f/linked_in_profile' rel='noopener noreferrer' target='_blank'>
-                                <i class="fab fa-aws fa-2x"></i>
+                                <i className="fab fa-aws fa-2x"></i>
                             </a>
 
                             {/* medium */}
                             <a href='https://hroman-codes.medium.com/' rel='noopener noreferrer' target='_blank'>
-                                <i class="fab fa-medium-m fa-2x"></i>
+                                <i className="fab fa-medium-m fa-2x"></i>
                             </a>
 
                             {/* dribble */}
                             <a href='https://dribbble.com/hroman_codes' rel='noopener noreferrer' target='_blank'>
-                                <i class="fab fa-dribbble fa-2x"></i>
+                                <i className="fab fa-dribbble fa-2x"></i>
                             </a>
                         </div>
                         </div>

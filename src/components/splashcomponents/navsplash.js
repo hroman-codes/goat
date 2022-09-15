@@ -152,7 +152,7 @@ const Navsplash = () => {
                             to='https://discord.gg/nj5k2WhQdh'
                             target='_blank'
                             rel='noopener noreferrer'>
-                                <i class="fab fa-discord fa-6x"></i>
+                                <i className="fab fa-discord fa-6x"></i>
                         </ReactGA.OutboundLink>
 
                         
